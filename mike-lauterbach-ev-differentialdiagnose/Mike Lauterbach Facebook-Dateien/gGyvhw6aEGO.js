@@ -1,0 +1,6 @@
+;/*FB_PKG_DELIM*/
+
+__d("LSDeleteCommunityUnjoinedChannel",[],(function(a,b,c,d,e,f){function a(){var a=arguments,b=a[a.length-1];b.n;var c=[];return b.seq([function(c){return b.fe(b.ftr(b.db.table(9).fetch([[[a[0]]]]),function(c){return b.i64.eq(c.threadKey,a[0])&&b.i64.eq(c.threadType,b.i64.cast([0,19]))}),function(a){return a["delete"]()})},function(a){return b.resolve(c)}])}b=a;f["default"]=b}),66);
+__d("LSSetNeedsAdminApprovalForNewParticipant",[],(function(a,b,c,d,e,f){function a(){var a=arguments,b=a[a.length-1];b.n;var c=[];return b.seq([function(c){return b.fe(b.db.table(9).fetch([[[a[0]]]]),function(b){var c=b.update;b.item;return c({needsAdminApprovalForNewParticipant:a[1]})})},function(a){return b.resolve(c)}])}b=a;f["default"]=b}),66);
+__d("LSSetSecondaryParentThreadKey",[],(function(a,b,c,d,e,f){function a(){var a=arguments,b=a[a.length-1];b.n;var c=[];return b.seq([function(c){return b.fe(b.db.table(9).fetch([[[a[0]]]]),function(b){var c=b.update;b.item;return c({secondaryParentThreadKey:a[1]})})},function(a){return b.resolve(c)}])}b=a;f["default"]=b}),66);
+__d("LSUpdateThreadJoinRequestApprovalSetting",[],(function(a,b,c,d,e,f){function a(){var a=arguments,b=a[a.length-1];b.n;var c=[];return b.resolve(c)}b=a;f["default"]=b}),66);

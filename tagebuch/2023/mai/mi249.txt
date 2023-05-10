@@ -1,9 +1,19 @@
 
 jetzt mal die studie eingelesen, das ist nicht etwas wo man so rasch einen kommentar dazu machen kann, da muss man sich erst 10h damit beschäftigen. [1]
 
-"perception shapes reality" wie der Arne Vogelgesang in seinem tollen CCC Talk sagt wäre falsch, sondern was die Studie sagt "weltverständnis shapes memory", somit wäre es naheliegend anzunehmen, dass ein Gehirn ähnlich funktioniert wie ein Computer [2] welches bereits vorhandene Datenobjekte nur referenziert. Also so wie eine pointer *int p1.
 
-Der Joscha Bach sagt in Alternativlos 42, dass wir Menschen "allgemeine Funktions-Approximatoren" sind [3]
+Hallo Nicholas
+
+"perception shapes reality" sagt der Arne Vogelgesang in seinem tollen CCC Talk aber diese Studie sagt eher "Weltverständnis shapes memory", somit wäre es naheliegend anzunehmen, dass ein Gehirn ähnlich funktioniert wie ein Computer welches bereits vorhandene Datenobjekte nur referenziert. Also so wie eine pointer *int p1.
+
+Der Joscha Bach sagt in Alternativlos 42, dass wir Menschen "generische Funktions-Approximatoren" sind
+
+Wenn man ChatGPT fragt: "Ist ein Neuronales-Netzwerk invariant gegenüber Spiegelungen?" antwortet der "Ein neuronales Netzwerk ist im Allgemeinen nicht invariant gegenüber Spiegelungen, es sei denn, es wurde > > speziell darauf trainiert < < oder so konstruiert ..."
+
+Da vermutlich niemand Buchstaben spiegelverkehrt lernt kann der "generische Funktions-Aproximator" ist das c und das spiegelverkehrte c das selbe Obiekt im Gehirn das mit einem Pointer referenziert wird.
+
+Somit gilt die Aussage allnefalls für Buchstaben-Suppe, aber gilt sie auch für "Named-Entities", also vorhandene DatenObjekte im Gehirn für Dinge wo man explizit Spezialist. Spezialisten haben auf ihrem Fachgebeit eine veil differenzierte Landkarte der der einzelnen DatenObjekte
+
 
 [1] "unbekannt": ok, dann jetzt besser sex
 [2] "unbekannt": wer hätte erwarten könnten, dass der sich schon wieder an etwas wissenschaftlichem festbesst stat das bei [1]
@@ -11,6 +21,9 @@ Der Joscha Bach sagt in Alternativlos 42, dass wir Menschen "allgemeine Funktion
 
 [4] "unbekannt": hmmm, allenfalls zwangsmassnahem
 [5] ich: yay, sm spiele und dann bin ich nicht schuld wenn das später fertig wird, aber ist auch irgendwo offtopic
+[6] "unbekannt": [wühlt in der kiste für männer-erziehungsmittel]
+[7] ist immer noch offtopic
+
 
 
 

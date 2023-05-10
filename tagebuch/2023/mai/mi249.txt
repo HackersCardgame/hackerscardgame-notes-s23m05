@@ -4,15 +4,28 @@ jetzt mal die studie eingelesen, das ist nicht etwas wo man so rasch einen komme
 
 Hallo Nicholas
 
-"perception shapes reality" sagt der Arne Vogelgesang in seinem tollen CCC Talk aber diese Studie sagt eher "Weltverständnis shapes memory", somit wäre es naheliegend anzunehmen, dass ein Gehirn ähnlich funktioniert wie ein Computer welches bereits vorhandene Datenobjekte nur referenziert. Also so wie eine pointer *int p1.
+Mein Gehirn sagt "die Studie ist falsch oder zu indifferenziert."
+(und ja ich hab die ganze Studie sogar mehrfach gelesen)
 
-Der Joscha Bach sagt in Alternativlos 42, dass wir Menschen "generische Funktions-Approximatoren" sind
+"perception shapes reality" sagt der Arne Vogelgesang in seinem tollen CCC Talk aber diese Studie sagt ja eher "Weltverständnis shapes memory", somit wäre es naheliegend anzunehmen, dass ein Gehirn ähnlich funktioniert wie ein Computer welches bereits vorhandene Datenobjekte nur referenziert. Also so wie eine pointer in C/C++ *int p1.
 
-Wenn man ChatGPT fragt: "Ist ein Neuronales-Netzwerk invariant gegenüber Spiegelungen?" antwortet der "Ein neuronales Netzwerk ist im Allgemeinen nicht invariant gegenüber Spiegelungen, es sei denn, es wurde > > speziell darauf trainiert < < oder so konstruiert ..."
+* Der Joscha Bach sagt in Alternativlos 42, dass wir Menschen "generische Funktions-Approximatoren" seien
 
-Da vermutlich niemand Buchstaben spiegelverkehrt lernt kann der "generische Funktions-Aproximator" ist das c und das spiegelverkehrte c das selbe Obiekt im Gehirn das mit einem Pointer referenziert wird.
+* Wenn man ChatGPT fragt: "Ist ein Neuronales-Netzwerk invariant gegenüber Spiegelungen?" antwortet der "Ein neuronales Netzwerk ist im Allgemeinen nicht invariant gegenüber Spiegelungen, es sei denn, es wurde > > speziell darauf trainiert < < oder so konstruiert ..."
 
-Somit gilt die Aussage allnefalls für Buchstaben-Suppe, aber gilt sie auch für "Named-Entities", also vorhandene DatenObjekte im Gehirn für Dinge wo man explizit Spezialist. Spezialisten haben auf ihrem Fachgebeit eine veil differenzierte Landkarte der der einzelnen DatenObjekte
+Da vermutlich niemand Buchstaben spiegelverkehrt lernt kann der "generische Funktions-Aproximator" das "c" und das "spiegelverkehrte c" nur als das selbe selbe Obiekt "c" im Gehirn referenzieren und macht da einen Pointer hin.
+
+Somit gilt die Aussage allenfalls für Buchstaben-Suppe, aber gilt sie auch für "Named-Entities", also vorhandene DatenObjekte im Gehirn für Dinge insbesondere wenn man Spezialist ist für ein Fach, z.B Psychologe? Spezialisten haben auf ihrem Fachgebeit eine viel differenzierte Landkarte der einzelnen DatenObjekte und würde somit weniger fehler machen.
+
+Auch das mit den Pseudo-Buchstaben (Dreiecken) umgeht das Problem mit den "NamedEntities" nicht, weil dass jemand explizit verschiedene DatenObjekte für Dreiecke die in einem anderen Winkel dargestellt werden wäre auch eher nicht zu erwarten.
+
+Der Hinweis von Nicolas das "mehr Demut" etwas gutes sei stimmt aber IMHO trotzdem.
+
+Danke für die (meist) spannenden Themen, lustig ist es ja sowieso immer wie der Kommentar von julia sagt
+
+Gruss Marc jr.
+
+
 
 
 [1] "unbekannt": ok, dann jetzt besser sex

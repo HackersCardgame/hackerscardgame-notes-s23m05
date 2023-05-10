@@ -1,11 +1,13 @@
 
 jetzt mal die studie eingelesen, das ist nicht etwas wo man so rasch einen kommentar dazu machen kann, da muss man sich erst 10h damit beschäftigen. [1]
 
-"perception shapes reality" wie der arne vogelgesang sagt wäre falsch, sondern was die Studie sagt "weltverständnis shapes memory", somit wäre es naheliegend anzunehmen, dass ein Gehirn ähnlich funktioniert wie ein Computer [2]
+"perception shapes reality" wie der Arne Vogelgesang in seinem tollen CCC Talk sagt wäre falsch, sondern was die Studie sagt "weltverständnis shapes memory", somit wäre es naheliegend anzunehmen, dass ein Gehirn ähnlich funktioniert wie ein Computer [2] welches bereits vorhandene Datenobjekte nur referenziert. Also so wie eine pointer *int p1.
+
+Der Joscha Bach sagt in Alternativlos 42, dass wir Menschen "allgemeine Funktions-Approximatoren" sind [3]
 
 [1] "unbekannt": ok, dann jetzt besser sex
 [2] "unbekannt": wer hätte erwarten könnten, dass der sich schon wieder an etwas wissenschaftlichem festbesst stat das bei [1]
-
+[3] ich: ich denke die studie ist falsch
 
 
 

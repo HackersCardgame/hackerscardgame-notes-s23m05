@@ -4,7 +4,7 @@ jetzt mal die studie eingelesen, das ist nicht etwas wo man so rasch einen komme
 
 Hallo Nicholas
 
-Mein Gehirn sagt "die Studie ist falsch oder zu indifferenziert."
+Mein Gehirn sagt "die Studie ist falsch oder zu indifferenziert." oder mindestens das Test-Setting.
 (und ja ich hab die ganze Studie sogar mehrfach gelesen)
 
 "perception shapes reality" sagt der Arne Vogelgesang in seinem tollen CCC Talk aber diese Studie sagt ja eher "Weltverständnis shapes memory", somit wäre es naheliegend anzunehmen, dass ein Gehirn ähnlich funktioniert wie ein Computer welches bereits vorhandene Datenobjekte nur referenziert. Also so wie eine pointer in C/C++ *int p1.
@@ -18,6 +18,8 @@ Da vermutlich niemand Buchstaben spiegelverkehrt lernt kann der "generische Funk
 Somit gilt die Aussage allenfalls für Buchstaben-Suppe, aber gilt sie auch für "Named-Entities", also vorhandene DatenObjekte im Gehirn für Dinge insbesondere wenn man Spezialist ist für ein Fach, z.B Psychologe? Spezialisten haben auf ihrem Fachgebeit eine viel differenzierte Landkarte der einzelnen DatenObjekte und würde somit weniger fehler machen.
 
 Auch das mit den Pseudo-Buchstaben (Dreiecken) umgeht das Problem mit den "NamedEntities" nicht, weil dass jemand explizit verschiedene DatenObjekte für Dreiecke die in einem anderen Winkel dargestellt werden wäre auch eher nicht zu erwarten.
+
+Die Grafik "Target Letter" in der Studie zeigt ja auch irgendwie, dass wenn man nichts hat dass man zu referenzieren hat, dass es dann noch schlimmer wird.
 
 Der Hinweis von Nicolas das "mehr Demut" etwas gutes sei stimmt aber IMHO trotzdem.
 

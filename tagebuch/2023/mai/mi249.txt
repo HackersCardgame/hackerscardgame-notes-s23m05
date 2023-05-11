@@ -19,7 +19,7 @@ Somit gilt die Aussage allenfalls für Buchstaben-Suppe, aber gilt sie auch für
 
 Auch das mit den Pseudo-Buchstaben (Dreiecken) umgeht das Problem mit den "NamedEntities" nicht, weil dass jemand explizit verschiedene DatenObjekte für Dreiecke die in einem anderen Winkel dargestellt werden wäre auch eher nicht zu erwarten.
 
-Die Grafik "Target Letter" in der Studie zeigt ja auch irgendwie, dass wenn man nichts hat dass man zu referenzieren hat, dass es dann noch schlimmer wird.
+Die Grafik "Target Letter" in der Studie zeigt ja auch irgendwie, dass wenn man nichts hat dass man zu referenzieren hat, dass es dann noch schlimmer wird als wenn man nur die halben Referenzen hat
 
 Der Hinweis von Nicolas das "mehr Demut" etwas gutes sei stimmt aber IMHO trotzdem.
 

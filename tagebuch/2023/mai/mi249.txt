@@ -15,23 +15,20 @@ Mein Gehirn sagt "die Studie ist falsch oder zu indifferenziert." oder mindesten
 
 Da vermutlich niemand Buchstaben spiegelverkehrt lernt kann der "generische Funktions-Aproximator" das "c" und das "spiegelverkehrte c" nur als das selbe selbe Obiekt "c" im Gehirn referenzieren und macht da einen Pointer hin.
 
-Somit gilt die Aussage allenfalls für Buchstaben-Suppe, aber gilt sie auch für "Named-Entities", also vorhandene DatenObjekte im Gehirn für Dinge insbesondere wenn man Spezialist ist für ein Fach, z.B Psychologe? Spezialisten haben auf ihrem Fachgebeit eine viel differenzierte Landkarte der einzelnen DatenObjekte und würde somit weniger fehler machen.
+Somit gilt die Aussage allenfalls für Buchstaben-Suppe, aber gilt sie auch für "Named-Entities"? Also vorhandene DatenObjekte im Gehirn referenziert zwar das "c" richtig, referenziert aber für das spiegelverkehrte "c" auf das falsche Objekt. Spezialisten haben auf ihrem Fachgebeit eine viel differenzierte Landkarte der einzelnen DatenObjekte und würde somit weniger fehler machen.
 
 Auch das mit den Pseudo-Buchstaben (Dreiecken) umgeht das Problem mit den "NamedEntities" nicht, weil dass jemand explizit verschiedene DatenObjekte für Dreiecke die in einem anderen Winkel dargestellt werden wäre auch eher nicht zu erwarten.
 
-Die Grafik "Target Letter" in der Studie zeigt ja auch irgendwie, dass wenn man nichts hat dass man zu referenzieren hat, dass es dann noch schlimmer wird als wenn man nur die halben Referenzen hat
+Die Grafik "Target Letter" in der Studie zeigt ja auch irgendwie, dass wenn man nichts hat was man referenzieren kann, dass es dann noch schlimmer wird als wenn man nur die halben Referenzen hat.
 
 Der Hinweis von Nicolas das "mehr Demut" etwas gutes sei stimmt aber IMHO trotzdem.
-
-
-DANIEL DENNET multiple draft modell erwähnen wenn ich das nicht schon erwähnt habe ->wwget.sh (nicht erwähnt) [8]
-
 
 Danke für die (meist) spannenden Themen, lustig ist es ja sowieso immer wie der Kommentar von julia sagt
 
 Gruss Marc jr.
 
 
+DANIEL DENNET multiple draft modell erwähnen wenn ich das nicht schon erwähnt habe ->wwget.sh (nicht erwähnt) [8]
 
 
 [1] "unbekannt": ok, dann jetzt besser sex
@@ -97,4 +94,51 @@ weltwissen wo eingespiesen? tracen, bourdieu   satanic panic
 *pointer bei C/C++
 
 "gleichgeschaltete" metasprache über die sie sich austaujschen 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+https://minkorrekt.de/minkorrekt-folge-161-gesichtswurst/#comment-65280
+
+
+Hallo Eva
+
+Du scheinst Dich gut mit Neurologie auszukennen und hätte eine Frage wenn Du Zeit und Lust hast.
+
+Schizophrene werden in Hollywood Filmen ja oft als Triebtäter dargestelt. Ich (ICD10-F20.0) habe bei mir festgestellt, dass (vermutlich) das Dopamin meinen Trieb verstärkt.
+
+Aber aus irgend einem Grund scheint mein Moral- und Werte-System auch verstärkt zu werden.
+
+Also meine Arbeitshypothese ist, dass ein erhöhter Dopamin-Spiegel (wie das typsich ist bei Schizophrenen) auch zu einer Verstärkung des Moral- und Werte-Systems führt. Da finde ich aber überhaupt keine Literatur dazu.
+
+Episodisches Beispiel: Mit 10 Jahren habe ich in einem Laden ein Glühbirrnchen für meine Taschenlampe geklaut im Wert von 1.50, mit 30 hat mein Gewissen angefangen mich so sehr zu verfolgen das ich einen Wahn entwickelt habe. Schlussendlich bin ich in den Laden gegangen, hab das gebeichtet und denen 5.-- gegeben. Danach war dieser Wahn wieder weg.
+
+Ein weiteres Indiz für meine Arbeitshypothese könnte auch sein, dass doch nicht wenige Schizophrene in einen religiösen Wahn verfallen, sich dann einreden sie seien Jesus oder so etwas.
+
+
+
+
+
+
+
+
+
 

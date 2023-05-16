@@ -1,0 +1,996 @@
+<!DOCTYPE html>
+<html prefix="og: https://ogp.me/ns#" lang="de-DE"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="profile" href="https://gmpg.org/xfn/11">
+	
+<!-- Suchmaschinen-Optimierung durch Rank Math PRO - https://s.rankmath.com/home -->
+<title>Responsible Disclosure, ein seeeehr breiter Begriff - Das Netz ist politisch</title>
+<meta name="description" content="Am 9. Januar 2023 publizierte eine Forschungsgruppe der ETH auf einer eigens dazu aufgesetzten Webseite eine Reihe von Schwachstellen, welche ein">
+<meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large">
+<link rel="canonical" href="https://dnip.ch/2023/05/16/responsible-disclosure-ein-seeeehr-breiter-begriff/">
+<meta property="og:locale" content="de_DE">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Responsible Disclosure, ein seeeehr breiter Begriff - Das Netz ist politisch">
+<meta property="og:description" content="Am 9. Januar 2023 publizierte eine Forschungsgruppe der ETH auf einer eigens dazu aufgesetzten Webseite eine Reihe von Schwachstellen, welche ein">
+<meta property="og:url" content="https://dnip.ch/2023/05/16/responsible-disclosure-ein-seeeehr-breiter-begriff/">
+<meta property="og:site_name" content="Das Netz ist politisch">
+<meta property="article:tag" content="Bug Bounty">
+<meta property="article:tag" content="Hacking">
+<meta property="article:tag" content="Responsible Disclosure">
+<meta property="article:tag" content="security">
+<meta property="article:section" content="Uncategorized">
+<meta property="og:updated_time" content="2023-05-16T09:01:23+02:00">
+<meta property="og:image" content="https://dnip.ch/wp-content/uploads/2023/05/door-g14dc8744f_1920.jpg">
+<meta property="og:image:secure_url" content="https://dnip.ch/wp-content/uploads/2023/05/door-g14dc8744f_1920.jpg">
+<meta property="og:image:width" content="1920">
+<meta property="og:image:height" content="1024">
+<meta property="og:image:alt" content="Responsible Disclosure, ein seeeehr breiter Begriff">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="article:published_time" content="2023-05-16T06:42:00+02:00">
+<meta property="article:modified_time" content="2023-05-16T09:01:23+02:00">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Responsible Disclosure, ein seeeehr breiter Begriff - Das Netz ist politisch">
+<meta name="twitter:description" content="Am 9. Januar 2023 publizierte eine Forschungsgruppe der ETH auf einer eigens dazu aufgesetzten Webseite eine Reihe von Schwachstellen, welche ein">
+<meta name="twitter:image" content="https://dnip.ch/wp-content/uploads/2023/05/door-g14dc8744f_1920.jpg">
+<meta name="twitter:label1" content="Verfasst von">
+<meta name="twitter:data1" content="Patrick Seemann">
+<meta name="twitter:label2" content="Zeit zum Lesen">
+<meta name="twitter:data2" content="5 Minuten">
+<script type="text/javascript" async="" src="Responsible%20Disclosure,%20ein%20seeeehr%20breiter%20Begriff%20-%20Das%20Netz%20ist%20politisch-Dateien/matomo.js"></script><script type="application/ld+json" class="rank-math-schema-pro">{"@context":"https://schema.org","@graph":[{"@type":["Person","Organization"],"@id":"https://dnip.ch/#person","name":"avongunten","logo":{"@type":"ImageObject","@id":"https://dnip.ch/#logo","url":"https://dnip.ch/wp-content/uploads/2020/12/das-netz-ist-politisch.png","contentUrl":"https://dnip.ch/wp-content/uploads/2020/12/das-netz-ist-politisch.png","caption":"avongunten","inLanguage":"de-DE","width":"2362","height":"2909"},"image":{"@type":"ImageObject","@id":"https://dnip.ch/#logo","url":"https://dnip.ch/wp-content/uploads/2020/12/das-netz-ist-politisch.png","contentUrl":"https://dnip.ch/wp-content/uploads/2020/12/das-netz-ist-politisch.png","caption":"avongunten","inLanguage":"de-DE","width":"2362","height":"2909"}},{"@type":"WebSite","@id":"https://dnip.ch/#website","url":"https://dnip.ch","name":"avongunten","publisher":{"@id":"https://dnip.ch/#person"},"inLanguage":"de-DE"},{"@type":"ImageObject","@id":"https://dnip.ch/wp-content/uploads/2023/05/door-g14dc8744f_1920.jpg","url":"https://dnip.ch/wp-content/uploads/2023/05/door-g14dc8744f_1920.jpg","width":"1920","height":"1024","inLanguage":"de-DE"},{"@type":"WebPage","@id":"https://dnip.ch/2023/05/16/responsible-disclosure-ein-seeeehr-breiter-begriff/#webpage","url":"https://dnip.ch/2023/05/16/responsible-disclosure-ein-seeeehr-breiter-begriff/","name":"Responsible Disclosure, ein seeeehr breiter Begriff - Das Netz ist politisch","datePublished":"2023-05-16T06:42:00+02:00","dateModified":"2023-05-16T09:01:23+02:00","isPartOf":{"@id":"https://dnip.ch/#website"},"primaryImageOfPage":{"@id":"https://dnip.ch/wp-content/uploads/2023/05/door-g14dc8744f_1920.jpg"},"inLanguage":"de-DE"},{"@type":"Person","@id":"https://dnip.ch/author/pseemann/","name":"Patrick Seemann","url":"https://dnip.ch/author/pseemann/","image":{"@type":"ImageObject","@id":"https://dnip.ch/wp-content/uploads/2021/02/seemann_patrick_201403wq-96x96.jpg","url":"https://dnip.ch/wp-content/uploads/2021/02/seemann_patrick_201403wq-96x96.jpg","caption":"Patrick Seemann","inLanguage":"de-DE"}},{"@type":"BlogPosting","headline":"Responsible Disclosure, ein seeeehr breiter Begriff - Das Netz ist politisch","datePublished":"2023-05-16T06:42:00+02:00","dateModified":"2023-05-16T09:01:23+02:00","articleSection":"Uncategorized","author":{"@id":"https://dnip.ch/author/pseemann/","name":"Patrick Seemann"},"publisher":{"@id":"https://dnip.ch/#person"},"description":"Am 9. Januar 2023 publizierte eine Forschungsgruppe der ETH auf einer eigens dazu aufgesetzten Webseite eine Reihe von Schwachstellen, welche ein","name":"Responsible Disclosure, ein seeeehr breiter Begriff - Das Netz ist politisch","@id":"https://dnip.ch/2023/05/16/responsible-disclosure-ein-seeeehr-breiter-begriff/#richSnippet","isPartOf":{"@id":"https://dnip.ch/2023/05/16/responsible-disclosure-ein-seeeehr-breiter-begriff/#webpage"},"image":{"@id":"https://dnip.ch/wp-content/uploads/2023/05/door-g14dc8744f_1920.jpg"},"inLanguage":"de-DE","mainEntityOfPage":{"@id":"https://dnip.ch/2023/05/16/responsible-disclosure-ein-seeeehr-breiter-begriff/#webpage"}}]}</script>
+<!-- /Rank Math WordPress SEO Plugin -->
+
+<link rel="alternate" type="application/rss+xml" title="Das Netz ist politisch » Feed" href="https://dnip.ch/feed/">
+<link rel="alternate" type="application/rss+xml" title="Das Netz ist politisch » Kommentar-Feed" href="https://dnip.ch/comments/feed/">
+<link rel="alternate" type="application/rss+xml" title="Das Netz ist politisch » Responsible Disclosure, ein seeeehr breiter Begriff Kommentar-Feed" href="https://dnip.ch/2023/05/16/responsible-disclosure-ein-seeeehr-breiter-begriff/feed/">
+<script>
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/dnip.ch\/wp-includes\/js\/wp-emoji-release.min.js?ver=f7150560e4eb34f8fdd6de34c3543199"}};
+/*! This file is auto-generated */
+!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){p.clearRect(0,0,i.width,i.height),p.fillText(e,0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(t,0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(p&&p.fillText)switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s("\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!s("\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!s("\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!s("\ud83e\udef1\ud83c\udffb\u200d\ud83e\udef2\ud83c\udfff","\ud83e\udef1\ud83c\udffb\u200b\ud83e\udef2\ud83c\udfff")}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(e=t.source||{}).concatemoji?c(e.concatemoji):e.wpemoji&&e.twemoji&&(c(e.twemoji),c(e.wpemoji)))}(window,document,window._wpemojiSettings);
+</script>
+<style>
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 0.07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel="stylesheet" id="wp-block-library-css" href="Responsible%20Disclosure,%20ein%20seeeehr%20breiter%20Begriff%20-%20Das%20Netz%20ist%20politisch-Dateien/style.min.css" media="all">
+<link rel="stylesheet" id="wc-blocks-vendors-style-css" href="Responsible%20Disclosure,%20ein%20seeeehr%20breiter%20Begriff%20-%20Das%20Netz%20ist%20politisch-Dateien/wc-blocks-vendors-style.css" media="all">
+<link rel="stylesheet" id="wc-blocks-style-css" href="Responsible%20Disclosure,%20ein%20seeeehr%20breiter%20Begriff%20-%20Das%20Netz%20ist%20politisch-Dateien/wc-blocks-style.css" media="all">
+<link rel="stylesheet" id="classic-theme-styles-css" href="Responsible%20Disclosure,%20ein%20seeeehr%20breiter%20Begriff%20-%20Das%20Netz%20ist%20politisch-Dateien/classic-themes.min.css" media="all">
+<style id="global-styles-inline-css">
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel="stylesheet" id="woocommerce-layout-css" href="Responsible%20Disclosure,%20ein%20seeeehr%20breiter%20Begriff%20-%20Das%20Netz%20ist%20politisch-Dateien/woocommerce-layout.css" media="all">
+<link rel="stylesheet" id="woocommerce-smallscreen-css" href="Responsible%20Disclosure,%20ein%20seeeehr%20breiter%20Begriff%20-%20Das%20Netz%20ist%20politisch-Dateien/woocommerce-smallscreen.css" media="only screen and (max-width: 768px)">
+<link rel="stylesheet" id="woocommerce-general-css" href="Responsible%20Disclosure,%20ein%20seeeehr%20breiter%20Begriff%20-%20Das%20Netz%20ist%20politisch-Dateien/woocommerce.css" media="all">
+<style id="woocommerce-inline-inline-css">
+.woocommerce form .form-row .required { visibility: visible; }
+</style>
+<link rel="stylesheet" id="hello-elementor-css" href="Responsible%20Disclosure,%20ein%20seeeehr%20breiter%20Begriff%20-%20Das%20Netz%20ist%20politisch-Dateien/style.min_002.css" media="all">
+<link rel="stylesheet" id="hello-elementor-theme-style-css" href="Responsible%20Disclosure,%20ein%20seeeehr%20breiter%20Begriff%20-%20Das%20Netz%20ist%20politisch-Dateien/theme.min.css" media="all">
+<link rel="stylesheet" id="elementor-icons-css" href="Responsible%20Disclosure,%20ein%20seeeehr%20breiter%20Begriff%20-%20Das%20Netz%20ist%20politisch-Dateien/elementor-icons.min.css" media="all">
+<link rel="stylesheet" id="elementor-frontend-legacy-css" href="Responsible%20Disclosure,%20ein%20seeeehr%20breiter%20Begriff%20-%20Das%20Netz%20ist%20politisch-Dateien/custom-frontend-legacy.min.css" media="all">
+<link rel="stylesheet" id="elementor-frontend-css" href="Responsible%20Disclosure,%20ein%20seeeehr%20breiter%20Begriff%20-%20Das%20Netz%20ist%20politisch-Dateien/custom-frontend.min.css" media="all">
+<link rel="stylesheet" id="swiper-css" href="Responsible%20Disclosure,%20ein%20seeeehr%20breiter%20Begriff%20-%20Das%20Netz%20ist%20politisch-Dateien/swiper.min.css" media="all">
+<link rel="stylesheet" id="elementor-post-12-css" href="Responsible%20Disclosure,%20ein%20seeeehr%20breiter%20Begriff%20-%20Das%20Netz%20ist%20politisch-Dateien/post-12.css" media="all">
+<link rel="stylesheet" id="elementor-pro-css" href="Responsible%20Disclosure,%20ein%20seeeehr%20breiter%20Begriff%20-%20Das%20Netz%20ist%20politisch-Dateien/custom-pro-frontend.min.css" media="all">
+<link rel="stylesheet" id="elementor-global-css" href="Responsible%20Disclosure,%20ein%20seeeehr%20breiter%20Begriff%20-%20Das%20Netz%20ist%20politisch-Dateien/global.css" media="all">
+<link rel="stylesheet" id="elementor-post-4264-css" href="Responsible%20Disclosure,%20ein%20seeeehr%20breiter%20Begriff%20-%20Das%20Netz%20ist%20politisch-Dateien/post-4264.css" media="all">
+<link rel="stylesheet" id="fluentform-elementor-widget-css" href="Responsible%20Disclosure,%20ein%20seeeehr%20breiter%20Begriff%20-%20Das%20Netz%20ist%20politisch-Dateien/fluent-forms-elementor-widget.css" media="all">
+<link rel="stylesheet" id="elementor-post-4267-css" href="Responsible%20Disclosure,%20ein%20seeeehr%20breiter%20Begriff%20-%20Das%20Netz%20ist%20politisch-Dateien/post-4267.css" media="all">
+<link rel="stylesheet" id="elementor-post-4270-css" href="Responsible%20Disclosure,%20ein%20seeeehr%20breiter%20Begriff%20-%20Das%20Netz%20ist%20politisch-Dateien/post-4270.css" media="all">
+<link rel="stylesheet" id="hello-elementor-child-style-css" href="Responsible%20Disclosure,%20ein%20seeeehr%20breiter%20Begriff%20-%20Das%20Netz%20ist%20politisch-Dateien/style.css" media="all">
+<link rel="stylesheet" id="elementor-icons-shared-0-css" href="Responsible%20Disclosure,%20ein%20seeeehr%20breiter%20Begriff%20-%20Das%20Netz%20ist%20politisch-Dateien/fontawesome.min.css" media="all">
+<link rel="stylesheet" id="elementor-icons-fa-solid-css" href="Responsible%20Disclosure,%20ein%20seeeehr%20breiter%20Begriff%20-%20Das%20Netz%20ist%20politisch-Dateien/solid.min.css" media="all">
+<script src="Responsible%20Disclosure,%20ein%20seeeehr%20breiter%20Begriff%20-%20Das%20Netz%20ist%20politisch-Dateien/DOMPurify.min.js" id="bodhi-dompurify-library-js"></script>
+<script src="Responsible%20Disclosure,%20ein%20seeeehr%20breiter%20Begriff%20-%20Das%20Netz%20ist%20politisch-Dateien/jquery.min.js" id="jquery-core-js"></script>
+<script src="Responsible%20Disclosure,%20ein%20seeeehr%20breiter%20Begriff%20-%20Das%20Netz%20ist%20politisch-Dateien/jquery-migrate.min.js" id="jquery-migrate-js"></script>
+<script src="Responsible%20Disclosure,%20ein%20seeeehr%20breiter%20Begriff%20-%20Das%20Netz%20ist%20politisch-Dateien/svgs-inline-min.js" id="bodhi_svg_inline-js"></script>
+<script id="bodhi_svg_inline-js-after">
+cssTarget="img.style-svg";ForceInlineSVGActive="false";frontSanitizationEnabled="on";
+</script>
+<link rel="https://api.w.org/" href="https://dnip.ch/wp-json/"><link rel="alternate" type="application/json" href="https://dnip.ch/wp-json/wp/v2/posts/6844"><link rel="shortlink" href="https://dnip.ch/?p=6844">
+<link rel="alternate" type="application/json+oembed" href="https://dnip.ch/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdnip.ch%2F2023%2F05%2F16%2Fresponsible-disclosure-ein-seeeehr-breiter-begriff%2F">
+<link rel="alternate" type="text/xml+oembed" href="https://dnip.ch/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdnip.ch%2F2023%2F05%2F16%2Fresponsible-disclosure-ein-seeeehr-breiter-begriff%2F&amp;format=xml">
+	<noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
+	<meta name="generator" content="Elementor 3.13.2; features: a11y_improvements, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-auto">
+<link rel="icon" href="https://dnip.ch/wp-content/uploads/2020/12/Favicon_dnip_V4-1-150x150.png" sizes="32x32">
+<link rel="icon" href="https://dnip.ch/wp-content/uploads/2020/12/Favicon_dnip_V4-1-300x300.png" sizes="192x192">
+<link rel="apple-touch-icon" href="https://dnip.ch/wp-content/uploads/2020/12/Favicon_dnip_V4-1-300x300.png">
+<meta name="msapplication-TileImage" content="https://dnip.ch/wp-content/uploads/2020/12/Favicon_dnip_V4-1-300x300.png">
+</head>
+<body class="post-template-default single single-post postid-6844 single-format-standard wp-custom-logo theme-hello-elementor woocommerce-js elementor-default elementor-kit-12 elementor-page-4270 e--ua-firefox" data-elementor-device-mode="desktop">
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-dark-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></feColorMatrix><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0 0.49803921568627"></feFuncR><feFuncG type="table" tableValues="0 0.49803921568627"></feFuncG><feFuncB type="table" tableValues="0 0.49803921568627"></feFuncB><feFuncA type="table" tableValues="1 1"></feFuncA></feComponentTransfer><feComposite in2="SourceGraphic" operator="in"></feComposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></feColorMatrix><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0 1"></feFuncR><feFuncG type="table" tableValues="0 1"></feFuncG><feFuncB type="table" tableValues="0 1"></feFuncB><feFuncA type="table" tableValues="1 1"></feFuncA></feComponentTransfer><feComposite in2="SourceGraphic" operator="in"></feComposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-purple-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></feColorMatrix><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0.54901960784314 0.98823529411765"></feFuncR><feFuncG type="table" tableValues="0 1"></feFuncG><feFuncB type="table" tableValues="0.71764705882353 0.25490196078431"></feFuncB><feFuncA type="table" tableValues="1 1"></feFuncA></feComponentTransfer><feComposite in2="SourceGraphic" operator="in"></feComposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-blue-red"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></feColorMatrix><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0 1"></feFuncR><feFuncG type="table" tableValues="0 0.27843137254902"></feFuncG><feFuncB type="table" tableValues="0.5921568627451 0.27843137254902"></feFuncB><feFuncA type="table" tableValues="1 1"></feFuncA></feComponentTransfer><feComposite in2="SourceGraphic" operator="in"></feComposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-midnight"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></feColorMatrix><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0 0"></feFuncR><feFuncG type="table" tableValues="0 0.64705882352941"></feFuncG><feFuncB type="table" tableValues="0 1"></feFuncB><feFuncA type="table" tableValues="1 1"></feFuncA></feComponentTransfer><feComposite in2="SourceGraphic" operator="in"></feComposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-magenta-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></feColorMatrix><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0.78039215686275 1"></feFuncR><feFuncG type="table" tableValues="0 0.94901960784314"></feFuncG><feFuncB type="table" tableValues="0.35294117647059 0.47058823529412"></feFuncB><feFuncA type="table" tableValues="1 1"></feFuncA></feComponentTransfer><feComposite in2="SourceGraphic" operator="in"></feComposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-purple-green"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></feColorMatrix><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0.65098039215686 0.40392156862745"></feFuncR><feFuncG type="table" tableValues="0 1"></feFuncG><feFuncB type="table" tableValues="0.44705882352941 0.4"></feFuncB><feFuncA type="table" tableValues="1 1"></feFuncA></feComponentTransfer><feComposite in2="SourceGraphic" operator="in"></feComposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-blue-orange"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></feColorMatrix><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0.098039215686275 1"></feFuncR><feFuncG type="table" tableValues="0 0.66274509803922"></feFuncG><feFuncB type="table" tableValues="0.84705882352941 0.41960784313725"></feFuncB><feFuncA type="table" tableValues="1 1"></feFuncA></feComponentTransfer><feComposite in2="SourceGraphic" operator="in"></feComposite></filter></defs></svg>
+<a class="skip-link screen-reader-text" href="#content">Zum Inhalt wechseln</a>
+
+		<header data-elementor-type="header" data-elementor-id="4264" class="elementor elementor-4264 elementor-location-header">
+					<div class="elementor-section-wrap">
+								<header class="elementor-section elementor-top-section elementor-element elementor-element-36ac442c elementor-section-height-min-height elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-items-middle elementor-sticky elementor-sticky--active elementor-section--handles-inside elementor-sticky--effects" data-id="36ac442c" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;sticky&quot;:&quot;top&quot;,&quot;sticky_on&quot;:[&quot;desktop&quot;,&quot;tablet&quot;],&quot;sticky_offset&quot;:0,&quot;sticky_effects_offset&quot;:0}" style="position: fixed; width: 1920px; margin-top: 0px; margin-bottom: 0px; top: 0px;">
+						<div class="elementor-container elementor-column-gap-no">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-250ca2c3" data-id="250ca2c3" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-5bd585e7 elementor-widget__width-auto elementor-widget elementor-widget-theme-site-logo elementor-widget-image" data-id="5bd585e7" data-element_type="widget" data-widget_type="theme-site-logo.default">
+				<div class="elementor-widget-container">
+								<div class="elementor-image">
+								<a href="https://dnip.ch/">
+			<img src="Responsible%20Disclosure,%20ein%20seeeehr%20breiter%20Begriff%20-%20Das%20Netz%20ist%20politisch-Dateien/Logo_dnip_V4_weisse-outline.png" class="attachment-full size-full wp-image-4283" alt="" loading="lazy" srcset="Responsible%20Disclosure,%20ein%20seeeehr%20breiter%20Begriff%20-%20Das%20Netz%20ist%20politisch-Dateien/Logo_dnip_V4_weisse-outline.png 4816w, Responsible%20Disclosure,%20ein%20seeeehr%20breiter%20Begriff%20-%20Das%20Netz%20ist%20politisch-Dateien/Logo_dnip_V4_weisse-outline-300x114.png 300w, Responsible%20Disclosure,%20ein%20seeeehr%20breiter%20Begriff%20-%20Das%20Netz%20ist%20politisch-Dateien/Logo_dnip_V4_weisse-outline-1024x391.png 1024w, Responsible%20Disclosure,%20ein%20seeeehr%20breiter%20Begriff%20-%20Das%20Netz%20ist%20politisch-Dateien/Logo_dnip_V4_weisse-outline-768x293.png 768w, Responsible%20Disclosure,%20ein%20seeeehr%20breiter%20Begriff%20-%20Das%20Netz%20ist%20politisch-Dateien/Logo_dnip_V4_weisse-outline-1536x586.png 1536w, Responsible%20Disclosure,%20ein%20seeeehr%20breiter%20Begriff%20-%20Das%20Netz%20ist%20politisch-Dateien/Logo_dnip_V4_weisse-outline-2048x782.png 2048w, Responsible%20Disclosure,%20ein%20seeeehr%20breiter%20Begriff%20-%20Das%20Netz%20ist%20politisch-Dateien/Logo_dnip_V4_weisse-outline-1320x504.png 1320w" sizes="(max-width: 4816px) 100vw, 4816px" width="4816" height="1838">				</a>
+										</div>
+						</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-7dfc2b5a" data-id="7dfc2b5a" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-20658973 elementor-nav-menu--dropdown-mobile elementor-nav-menu--stretch elementor-widget__width-auto elementor-nav-menu__align-left elementor-widget-mobile__width-inherit elementor-nav-menu__text-align-aside elementor-nav-menu--toggle elementor-nav-menu--burger elementor-widget elementor-widget-nav-menu" data-id="20658973" data-element_type="widget" data-settings="{&quot;full_width&quot;:&quot;stretch&quot;,&quot;layout&quot;:&quot;horizontal&quot;,&quot;submenu_icon&quot;:{&quot;value&quot;:&quot;&lt;i class=\&quot;fas fa-caret-down\&quot;&gt;&lt;\/i&gt;&quot;,&quot;library&quot;:&quot;fa-solid&quot;},&quot;toggle&quot;:&quot;burger&quot;}" data-widget_type="nav-menu.default">
+				<div class="elementor-widget-container">
+						<nav class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-horizontal e--pointer-text e--animation-skew">
+				<ul id="menu-1-20658973" class="elementor-nav-menu" data-smartmenus-id="1684230988721954"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-190"><a href="https://dnip.ch/" class="elementor-item">Magazin</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4386"><a href="https://dnip.ch/buch/" class="elementor-item">Buch</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4752"><a href="https://dnip.ch/unterstuetzen/" class="elementor-item">Unterstützen</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4378"><a href="https://dnip.ch/ueber-uns/" class="elementor-item">Über Uns</a></li>
+</ul>			</nav>
+					<div class="elementor-menu-toggle" role="button" tabindex="0" aria-label="Menu Toggle" aria-expanded="false" style="">
+			<i aria-hidden="true" role="presentation" class="elementor-menu-toggle__icon--open eicon-menu-bar"></i><i aria-hidden="true" role="presentation" class="elementor-menu-toggle__icon--close eicon-close"></i>			<span class="elementor-screen-only">Menü</span>
+		</div>
+					<nav class="elementor-nav-menu--dropdown elementor-nav-menu__container" aria-hidden="true" style="width: 1920px; left: 0px; top: 37.4px; --menu-height: 0;">
+				<ul id="menu-2-20658973" class="elementor-nav-menu" data-smartmenus-id="16842309887220735"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-190"><a href="https://dnip.ch/" class="elementor-item" tabindex="-1">Magazin</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4386"><a href="https://dnip.ch/buch/" class="elementor-item" tabindex="-1">Buch</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4752"><a href="https://dnip.ch/unterstuetzen/" class="elementor-item" tabindex="-1">Unterstützen</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4378"><a href="https://dnip.ch/ueber-uns/" class="elementor-item" tabindex="-1">Über Uns</a></li>
+</ul>			</nav>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-471e5ef" data-id="471e5ef" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-c26f0c4 elementor-search-form--skin-full_screen elementor-widget__width-auto elementor-widget-mobile__width-inherit elementor-hidden-mobile elementor-widget elementor-widget-search-form" data-id="c26f0c4" data-element_type="widget" data-settings="{&quot;skin&quot;:&quot;full_screen&quot;}" data-widget_type="search-form.default">
+				<div class="elementor-widget-container">
+					<form class="elementor-search-form" action="https://dnip.ch" method="get" role="search">
+									<div class="elementor-search-form__toggle" tabindex="0" role="button">
+				<i aria-hidden="true" class="fas fa-search"></i>				<span class="elementor-screen-only">Suche</span>
+			</div>
+						<div class="elementor-search-form__container">
+				<label class="elementor-screen-only" for="elementor-search-form-c26f0c4">Suche</label>
+
+				
+				<input id="elementor-search-form-c26f0c4" placeholder="Suchen" class="elementor-search-form__input" type="search" name="s">
+				
+				
+								<div class="dialog-lightbox-close-button dialog-close-button" role="button" tabindex="0">
+					<i aria-hidden="true" class="eicon-close"></i>					<span class="elementor-screen-only">Close this search box.</span>
+				</div>
+							</div>
+		</form>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-ea485d1 elementor-hidden-desktop elementor-hidden-tablet elementor-widget__width-initial elementor-search-form--skin-classic elementor-search-form--button-type-icon elementor-search-form--icon-search elementor-widget elementor-widget-search-form" data-id="ea485d1" data-element_type="widget" data-settings="{&quot;skin&quot;:&quot;classic&quot;}" data-widget_type="search-form.default">
+				<div class="elementor-widget-container">
+					<form class="elementor-search-form" action="https://dnip.ch" method="get" role="search">
+									<div class="elementor-search-form__container">
+				<label class="elementor-screen-only" for="elementor-search-form-ea485d1">Suche</label>
+
+				
+				<input id="elementor-search-form-ea485d1" placeholder="Suchen" class="elementor-search-form__input" type="search" name="s">
+				
+									<button class="elementor-search-form__submit" type="submit" aria-label="Suche">
+													<i aria-hidden="true" class="fas fa-search"></i>							<span class="elementor-screen-only">Suche</span>
+											</button>
+				
+							</div>
+		</form>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</header><header class="elementor-section elementor-top-section elementor-element elementor-element-36ac442c elementor-section-height-min-height elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-items-middle elementor-sticky elementor-sticky__spacer" data-id="36ac442c" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;sticky&quot;:&quot;top&quot;,&quot;sticky_on&quot;:[&quot;desktop&quot;,&quot;tablet&quot;],&quot;sticky_offset&quot;:0,&quot;sticky_effects_offset&quot;:0}" style="visibility: hidden; transition: none 0s ease 0s; animation: 0s ease 0s 1 normal none running none;">
+						<div class="elementor-container elementor-column-gap-no">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-250ca2c3" data-id="250ca2c3" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-5bd585e7 elementor-widget__width-auto elementor-widget elementor-widget-theme-site-logo elementor-widget-image" data-id="5bd585e7" data-element_type="widget" data-widget_type="theme-site-logo.default">
+				<div class="elementor-widget-container">
+								<div class="elementor-image">
+								<a href="https://dnip.ch/">
+			<img src="Responsible%20Disclosure,%20ein%20seeeehr%20breiter%20Begriff%20-%20Das%20Netz%20ist%20politisch-Dateien/Logo_dnip_V4_weisse-outline.png" class="attachment-full size-full wp-image-4283" alt="" loading="lazy" srcset="Responsible%20Disclosure,%20ein%20seeeehr%20breiter%20Begriff%20-%20Das%20Netz%20ist%20politisch-Dateien/Logo_dnip_V4_weisse-outline.png 4816w, Responsible%20Disclosure,%20ein%20seeeehr%20breiter%20Begriff%20-%20Das%20Netz%20ist%20politisch-Dateien/Logo_dnip_V4_weisse-outline-300x114.png 300w, Responsible%20Disclosure,%20ein%20seeeehr%20breiter%20Begriff%20-%20Das%20Netz%20ist%20politisch-Dateien/Logo_dnip_V4_weisse-outline-1024x391.png 1024w, Responsible%20Disclosure,%20ein%20seeeehr%20breiter%20Begriff%20-%20Das%20Netz%20ist%20politisch-Dateien/Logo_dnip_V4_weisse-outline-768x293.png 768w, Responsible%20Disclosure,%20ein%20seeeehr%20breiter%20Begriff%20-%20Das%20Netz%20ist%20politisch-Dateien/Logo_dnip_V4_weisse-outline-1536x586.png 1536w, Responsible%20Disclosure,%20ein%20seeeehr%20breiter%20Begriff%20-%20Das%20Netz%20ist%20politisch-Dateien/Logo_dnip_V4_weisse-outline-2048x782.png 2048w, Responsible%20Disclosure,%20ein%20seeeehr%20breiter%20Begriff%20-%20Das%20Netz%20ist%20politisch-Dateien/Logo_dnip_V4_weisse-outline-1320x504.png 1320w" sizes="(max-width: 4816px) 100vw, 4816px" width="4816" height="1838">				</a>
+										</div>
+						</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-7dfc2b5a" data-id="7dfc2b5a" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-20658973 elementor-nav-menu--dropdown-mobile elementor-nav-menu--stretch elementor-widget__width-auto elementor-nav-menu__align-left elementor-widget-mobile__width-inherit elementor-nav-menu__text-align-aside elementor-nav-menu--toggle elementor-nav-menu--burger elementor-widget elementor-widget-nav-menu" data-id="20658973" data-element_type="widget" data-settings="{&quot;full_width&quot;:&quot;stretch&quot;,&quot;layout&quot;:&quot;horizontal&quot;,&quot;submenu_icon&quot;:{&quot;value&quot;:&quot;&lt;i class=\&quot;fas fa-caret-down\&quot;&gt;&lt;\/i&gt;&quot;,&quot;library&quot;:&quot;fa-solid&quot;},&quot;toggle&quot;:&quot;burger&quot;}" data-widget_type="nav-menu.default">
+				<div class="elementor-widget-container">
+						<nav class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-horizontal e--pointer-text e--animation-skew">
+				<ul id="menu-1-20658973" class="elementor-nav-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-190"><a href="https://dnip.ch/" class="elementor-item">Magazin</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4386"><a href="https://dnip.ch/buch/" class="elementor-item">Buch</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4752"><a href="https://dnip.ch/unterstuetzen/" class="elementor-item">Unterstützen</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4378"><a href="https://dnip.ch/ueber-uns/" class="elementor-item">Über Uns</a></li>
+</ul>			</nav>
+					<div class="elementor-menu-toggle" role="button" tabindex="0" aria-label="Menu Toggle" aria-expanded="false">
+			<i aria-hidden="true" role="presentation" class="elementor-menu-toggle__icon--open eicon-menu-bar"></i><i aria-hidden="true" role="presentation" class="elementor-menu-toggle__icon--close eicon-close"></i>			<span class="elementor-screen-only">Menü</span>
+		</div>
+					<nav class="elementor-nav-menu--dropdown elementor-nav-menu__container" aria-hidden="true">
+				<ul id="menu-2-20658973" class="elementor-nav-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-190"><a href="https://dnip.ch/" class="elementor-item" tabindex="-1">Magazin</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4386"><a href="https://dnip.ch/buch/" class="elementor-item" tabindex="-1">Buch</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4752"><a href="https://dnip.ch/unterstuetzen/" class="elementor-item" tabindex="-1">Unterstützen</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4378"><a href="https://dnip.ch/ueber-uns/" class="elementor-item" tabindex="-1">Über Uns</a></li>
+</ul>			</nav>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-471e5ef" data-id="471e5ef" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-c26f0c4 elementor-search-form--skin-full_screen elementor-widget__width-auto elementor-widget-mobile__width-inherit elementor-hidden-mobile elementor-widget elementor-widget-search-form" data-id="c26f0c4" data-element_type="widget" data-settings="{&quot;skin&quot;:&quot;full_screen&quot;}" data-widget_type="search-form.default">
+				<div class="elementor-widget-container">
+					<form class="elementor-search-form" action="https://dnip.ch" method="get" role="search">
+									<div class="elementor-search-form__toggle" tabindex="0" role="button">
+				<i aria-hidden="true" class="fas fa-search"></i>				<span class="elementor-screen-only">Suche</span>
+			</div>
+						<div class="elementor-search-form__container">
+				<label class="elementor-screen-only" for="elementor-search-form-c26f0c4">Suche</label>
+
+				
+				<input id="elementor-search-form-c26f0c4" placeholder="Suchen" class="elementor-search-form__input" type="search" name="s">
+				
+				
+								<div class="dialog-lightbox-close-button dialog-close-button" role="button" tabindex="0">
+					<i aria-hidden="true" class="eicon-close"></i>					<span class="elementor-screen-only">Close this search box.</span>
+				</div>
+							</div>
+		</form>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-ea485d1 elementor-hidden-desktop elementor-hidden-tablet elementor-widget__width-initial elementor-search-form--skin-classic elementor-search-form--button-type-icon elementor-search-form--icon-search elementor-widget elementor-widget-search-form" data-id="ea485d1" data-element_type="widget" data-settings="{&quot;skin&quot;:&quot;classic&quot;}" data-widget_type="search-form.default">
+				<div class="elementor-widget-container">
+					<form class="elementor-search-form" action="https://dnip.ch" method="get" role="search">
+									<div class="elementor-search-form__container">
+				<label class="elementor-screen-only" for="elementor-search-form-ea485d1">Suche</label>
+
+				
+				<input id="elementor-search-form-ea485d1" placeholder="Suchen" class="elementor-search-form__input" type="search" name="s">
+				
+									<button class="elementor-search-form__submit" type="submit" aria-label="Suche">
+													<i aria-hidden="true" class="fas fa-search"></i>							<span class="elementor-screen-only">Suche</span>
+											</button>
+				
+							</div>
+		</form>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</header>
+							</div>
+				</header>
+				<div data-elementor-type="single-post" data-elementor-id="4270" class="elementor elementor-4270 elementor-location-single post-6844 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized tag-bug-bounty tag-hacking tag-responsible-disclosure tag-security">
+					<div class="elementor-section-wrap">
+								<section class="elementor-section elementor-top-section elementor-element elementor-element-2898f672 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="2898f672" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-6cb8a9f6" data-id="6cb8a9f6" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-74768acd elementor-widget elementor-widget-theme-post-title elementor-page-title elementor-widget-heading" data-id="74768acd" data-element_type="widget" data-widget_type="theme-post-title.default">
+				<div class="elementor-widget-container">
+			<h1 class="elementor-heading-title elementor-size-default">Responsible Disclosure, ein seeeehr breiter Begriff</h1>		</div>
+				</div>
+				<div class="elementor-element elementor-element-3caa4556 elementor-align-center elementor-widget elementor-widget-post-info" data-id="3caa4556" data-element_type="widget" data-widget_type="post-info.default">
+				<div class="elementor-widget-container">
+					<ul class="elementor-inline-items elementor-icon-list-items elementor-post-info">
+								<li class="elementor-icon-list-item elementor-repeater-item-6863c75 elementor-inline-item" itemprop="author">
+						<a href="https://dnip.ch/author/pseemann/">
+											<span class="elementor-icon-list-icon">
+								<img class="elementor-avatar" src="Responsible%20Disclosure,%20ein%20seeeehr%20breiter%20Begriff%20-%20Das%20Netz%20ist%20politisch-Dateien/seemann_patrick_201403wq-96x96.jpg" alt="Patrick Seemann" loading="lazy">
+							</span>
+									<span class="elementor-icon-list-text elementor-post-info__item elementor-post-info__item--type-author">
+										Patrick Seemann					</span>
+									</a>
+				</li>
+				<li class="elementor-icon-list-item elementor-repeater-item-7f530f1 elementor-inline-item" itemprop="datePublished">
+						<a href="https://dnip.ch/2023/05/16/">
+														<span class="elementor-icon-list-text elementor-post-info__item elementor-post-info__item--type-date">
+										16. Mai 2023					</span>
+									</a>
+				</li>
+				</ul>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-31ffc13b elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="31ffc13b" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-327d9187" data-id="327d9187" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-6fe8f075 elementor-widget elementor-widget-theme-post-featured-image elementor-widget-image" data-id="6fe8f075" data-element_type="widget" data-widget_type="theme-post-featured-image.default">
+				<div class="elementor-widget-container">
+								<div class="elementor-image">
+												<img src="Responsible%20Disclosure,%20ein%20seeeehr%20breiter%20Begriff%20-%20Das%20Netz%20ist%20politisch-Dateien/door-g14dc8744f_1920.jpg" class="attachment-full size-full wp-image-6846" alt="" loading="lazy" srcset="Responsible%20Disclosure,%20ein%20seeeehr%20breiter%20Begriff%20-%20Das%20Netz%20ist%20politisch-Dateien/door-g14dc8744f_1920.jpg 1920w, Responsible%20Disclosure,%20ein%20seeeehr%20breiter%20Begriff%20-%20Das%20Netz%20ist%20politisch-Dateien/door-g14dc8744f_1920-300x160.jpg 300w, Responsible%20Disclosure,%20ein%20seeeehr%20breiter%20Begriff%20-%20Das%20Netz%20ist%20politisch-Dateien/door-g14dc8744f_1920-1024x546.jpg 1024w, Responsible%20Disclosure,%20ein%20seeeehr%20breiter%20Begriff%20-%20Das%20Netz%20ist%20politisch-Dateien/door-g14dc8744f_1920-768x410.jpg 768w, Responsible%20Disclosure,%20ein%20seeeehr%20breiter%20Begriff%20-%20Das%20Netz%20ist%20politisch-Dateien/door-g14dc8744f_1920-1536x819.jpg 1536w, Responsible%20Disclosure,%20ein%20seeeehr%20breiter%20Begriff%20-%20Das%20Netz%20ist%20politisch-Dateien/door-g14dc8744f_1920-1320x704.jpg 1320w, Responsible%20Disclosure,%20ein%20seeeehr%20breiter%20Begriff%20-%20Das%20Netz%20ist%20politisch-Dateien/door-g14dc8744f_1920-600x320.jpg 600w" sizes="(max-width: 1920px) 100vw, 1920px" width="1920" height="1024">														</div>
+						</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-ea14c11 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="ea14c11" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-21b893e4" data-id="21b893e4" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-6ac3d29e elementor-widget elementor-widget-theme-post-content" data-id="6ac3d29e" data-element_type="widget" id="single-post" data-widget_type="theme-post-content.default">
+				<div class="elementor-widget-container">
+			
+<p>Am 9. Januar 2023 publizierte eine Forschungsgruppe der ETH auf einer eigens dazu aufgesetzten <a href="https://breakingthe3ma.app/" target="_blank" rel="noopener">Webseite</a>
+ eine Reihe von Schwachstellen, welche ein Master-Student in der 
+Messenger-App Threema entdeckt hat. Gleichentags publizierte das 
+Unternehmen selbst eine <a href="https://threema.ch/en/blog/posts/news-alleged-weaknesses-statement" target="_blank" rel="noopener">Stellungnahme</a>
+ zu den Schwachstellen. Auffällig dabei war neben der völlig 
+unterschiedlichen Einschätzung der Relevanz und «Gefährlichkeit» der 
+Schwachstellen die teilweise recht aggressive wirkende Kommunikation 
+zwischen Forschern und Unternehmen. Für die Öffentlichkeit war das 
+ziemlich überraschend, und es führte zu einem kleinen Shitstorm in den 
+sozialen Medien und zu <a href="https://www.schneier.com/blog/archives/2023/01/security-analysis-of-threema.html" target="_blank" rel="noopener">teilweise heftiger Kritik aus Security-Kreisen</a>.
+ Soweit die Story, wie wir sie kennen. In den letzten Wochen sind wir 
+aber über ein Detail gestolpert welches in dieser Form noch nicht 
+bekannt war. </p>
+
+
+
+<p>Einer der grossen <a href="https://www.srf.ch/news/schweiz/threema-setzt-sich-durch-schweizer-armee-verbietet-whatsapp-und-co" target="_blank" rel="noopener">Threema-Anwender in der Schweiz</a>
+ ist das Schweizer Militär, welches den Messenger allen 
+Armee-Angehörigen zur Verfügung stellt. Wir wollten daher vom VBS 
+wissen, wie sie mit den Informationen über die Schwachstellen umgegangen
+ sind und welche Konsequenzen sich daraus für den Einsatz ergeben und 
+haben die entsprechenden Dokumente auf Basis des 
+Bundesöffentlichkeitsgesetz (BGÖ) angefordert. Neben Antworten auf diese
+ Fragen haben wir dabei auch Details zur Kommunikation zwischen ETH, 
+Threema und VBS erhalten, und diese Details haben es in sich:</p>
+
+
+
+<ul>
+<li>Am 3. Oktober 2022 nimmt die ETH-Gruppe mit Threema Kontakt auf und 
+stellt dem Unternehmen die Liste der gefundenen Schwachstellen zu.</li>
+
+
+
+<li>Threema schlägt gleichentags ein Treffen vor, um Behebungsmassnahmen
+ und das Vorgehen für ein «Responsible Disclosure» zu besprechen.</li>
+
+
+
+<li>Zwei Tage später findet ein Treffen zwischen der ETH-Gruppe und 
+Vertretern des VBS statt, an welchem die ETH-Gruppe dem VBS die Findings
+ vorstellt. In der Zusammenfassung der Slides, die bei diesem Treffen 
+dem Threema-Kunden VBS gezeigt werden, wird nicht mit Kritik an der App 
+gespart: «Threema is a fundamentally flawed application».</li>
+
+
+
+<li>Erst am 13. Oktober kommt es dann zum am 3. Oktober angeregten 
+Treffen zwischen der ETH-Gruppe und Threema. An diesem Meeting erfahren 
+die teilnehmenden Threema-Vertreter auch, dass das VBS bereits direkt 
+kontaktiert wurde.</li>
+
+
+
+<li>Am nächsten Tag kommt es bezüglich der Schwachstellen dann erstmals 
+zu einem Direktkontakt zwischen Threema und VBS, am 16. Oktober nimmt 
+Threema in einer ausführlichen Analyse (die weitgehend der am 9. Januar 
+veröffentlichen Version entspricht) Stellung.</li>
+</ul>
+
+
+
+<p>Dieser zeitliche Ablauf wurde uns sowohl von Threema wie auch der 
+ETH-Gruppe bestätigt. Kenny Paterson von der ETH sieht darin kein 
+Problem, aus seiner Sicht ist «Responsible Disclosure» ein breiter 
+Begriff, mit dem die Balance zwischen sofortiger Publikation und 
+Geheimhaltung gefunden werden muss. Im konkreten Fall sah er es in 
+seiner Verantwortung als Bundesangestellter, den Bund bzw. das VBS 
+direkt zu informieren. Dass andererseits ein Software-Hersteller wenig 
+Freude daran hat, wenn Dritte hinter seinem Rücken seine Kernapplikation
+ gegenüber einem Kunden als “fundamentally flawed” bezeichnet, liegt 
+wohl ebenso auf der Hand.</p>
+
+
+
+<h2 class="wp-block-heading">Was ist nun dieses «Responsible Disclosure»?</h2>
+
+
+
+<p>Offenbar kann man unter «Responsible Disclosure» Verschiedenes 
+verstehen, wir haben uns auf die Suche nach der Begriffsdefinition 
+gemacht. Die englischsprachige Wikipedia verweist für den Begriff auf 
+«Coordinated vulnerability disclosure», die <a href="https://de.wikipedia.org/wiki/Responsible_Disclosure_(IT-Sicherheit)" target="_blank" rel="noopener">deutschsprachige Version</a>
+ definiert den Begriff als “ein Verfahren zur Offenlegung von 
+Sicherheitslücken, bei dem die Schwachstelle zuerst den Entwicklern 
+gemeldet und erst nach einer angemessenen Frist zur Behebung 
+veröffentlicht wird”. Auch andere Definitionen des Begriffs 
+unterscheiden nur zwischen der Bekanntgabe zuhanden des 
+Herstellers/Entwickler und der breiten Veröffentlichung, zu einer 
+allfälligen Vorabinformation Dritter lässt sich nichts konkretes finden.
+ Der Begriff scheint also in der Tat verschieden verstanden zu werden 
+können.</p>
+
+
+
+<p>Wir haben mit einigen Sicherheitsforschern in der Schweiz über ihr 
+Verständnis von «Responsible Disclosure» gesprochen, die Meinungen über 
+die Bedeutung des Begriffs gehen definitiv auseinander. Einer der 
+befragen Forscher stellt sich klar auf den Standpunkt, dass es im obigen
+ Fall nicht um «Responsible Disclosure» handelt. Laut ihm wäre 
+allenfalls ein «Coordinated Disclosure» denkbar gewesen, aber auch dies 
+nur unter der Voraussetzung, dass die ETH-Gruppe Threema vorab darüber 
+informiert, dass die Informationen während der Stillhaltefrist an 
+ausgewählte Dritte weitergegeben werden. Dazu hätten die gefundenen 
+Schwachstellen aber derart offensichtlich sein müssen, dass davon 
+auszugehen gewesen wäre, dass sie bereits ausgenutzt werden.</p>
+
+
+
+<p>Anders sieht es Christian Folini, der in den letzten Jahren Bund und 
+Post beim eVoting beraten hat. Für ihn sind «Coordinated Disclosure» und
+ «Responsible Disclosure» keine klar definierten Verfahren, das Ziel 
+sollte primär sein, dass man einem Hersteller Zeit gibt, einen Fehler zu
+ beheben bevor die Schwachstelle der Öffentlichkeit mitgeteilt wird. Er 
+sieht gerade in der Schweiz eine Tendenz, von einer 
+Sicherheitsforscherin zu verlangen, dass sie während dieser Zeitperiode 
+mit gar niemandem ausser dem Hersteller über eine Schwachstelle sprechen
+ dürfen. Dafür gebe es allerdings keine Grundlage, schliesslich stehen 
+Forscherin und Unternehmen nicht in einer vertraglichen Beziehung. Im 
+konkreten Fall sei die Schweizerische Eidgenossenschaft immerhin ein 
+wichtiger Kunde von Threema und stütze sich namentlich in der 
+Krisenkommunikation stark auf dieses Tool ab. Über Schwachstellen 
+informiert zu sein berührt damit mithin die nationale Sicherheit, eine 
+zeitnahe Benachrichtigung des VBS oder generell der entsprechenden 
+Stellen des Bundes könne man daher vertreten. </p>
+
+
+
+<h2 class="wp-block-heading">Wie können es Unternehmen besser machen?</h2>
+
+
+
+<p>Als sehr vereinfachtes Fazit könnte man sagen, dass Kommunikation 
+schwierig ist, vor allem wenn mehr als eine Person involviert ist. 
+Konkret gilt es dem Umstand Rechnung zu tragen, dass beim Bekanntmachen 
+von Sicherheitslücken verschiedene Interessen im Spiel sind und dass 
+diese Interessen weder deckungsgleich noch gleichgerichtet sein dürften.
+ </p>
+
+
+
+<p>Als möglichen Ausweg schlägt Folini Bug Bounty-Programme vor, mit 
+welchen Unternehmen Sicherheitsforscher dazu motivieren können, 
+allfällige Schwachstellen gezielt zu melden und sich, üblicherweise 
+gegen einen von der Schwere der Lücke abhängigen Geldbetrag, zu 
+Stillschweigen zu verpflichten. Damit sinkt für Sicherheitsforscher auch
+ das Risiko, für ihre versuchten oder erfolgreichen Angriffe vor Gericht
+ zu landen (auch wenn das im Falle der ETH-Gruppe wohl eher 
+vernachlässigbar gewesen ist). Solche Bug Bounty-Programme kann man im 
+einfachsten Fall direkt auf der eigenen Webseite anbieten, vermutlich 
+fährt man aber besser wenn man dazu mit einem entsprechenden 
+Dienstleister zusammenarbeitet der einem hilft, typische Fallstricke zu 
+vermeiden, und der sich auch um administrative Details kümmert.</p>
+
+
+
+<p>Nachtrag: Im konkreten Fall hat das allerdings nix genützt, <a href="https://threema.ch/de/faq/bug-bounty" target="_blank" rel="noopener">Threema hat bereits ein Bug Bounty-Programm</a>. </p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity">
+
+
+
+<p>PS: Um zum Schluss noch auf die Frage zurückzukommen, wie das VBS mit
+ den ihm im Oktober gemeldeten Schwachstellen umgegangen ist: Die 
+Antwort dazu findet sich in den uns aufgrund des BGÖ-Gesuchs 
+zugestellten Dokumenten:</p>
+
+
+
+<ul>
+<li>Im November nahm das VBS eine eigene Analyse der Schwachstellen 
+sowie der von Threema geplanten Verbesserungen vor, und kam zum Schluss,
+ dass «We […] consider this reactions appropriate, since most of the 
+weaknesses revealed in your paper will be mitigated with these intended 
+fixes»</li>
+
+
+
+<li>Auch der NDB untersuchte die Schwachstellen und hielt Ende November 
+in einer Aktennotiz fest, dass die beschriebenen Attacken auf die gemäss
+ ETH-Gruppe «fundamentally flawed» App theoretischer Natur und in der 
+Praxis kaum/nur mit sehr hohem Aufwand umsetzbar sind, selbst für 
+Nachrichtendienste mit grossen Ressourcen. Aus einer Perspektive der 
+Risikobetrachung sieht er in der Hardware-Plattform (also dem jeweiligen
+ Smartphone) das grössere Risiko als in den theoretischen Angriffen auf 
+das Threema-Protokoll oder den Threema-Server. Er (der NDB) sah daher 
+keinen Grund, vom Einsatz von Threema in der Bundesverwaltung abzuraten.</li>
+</ul>
+		</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-bc7ab9c elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="bc7ab9c" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-4e1d5a5" data-id="4e1d5a5" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-be46dd0 elementor-widget elementor-widget-heading" data-id="be46dd0" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">dnip.ch mit Deiner Spende unterstützen</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-bcd68f3 elementor-widget elementor-widget-text-editor" data-id="bcd68f3" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<div class="elementor-text-editor elementor-clearfix">
+				<p>Wir wollen, dass unsere Inhalte frei verfügbar sind, weil wir es 
+wichtig finden, dass möglichst viele Menschen in unserem Land die 
+politischen Dimensionen der Digitalisierung erkennen und verstehen 
+können.</p><p>Damit das möglich ist, sind wir auf deine Unterstützung 
+angewiesen. Jeder Beitrag und sei er noch so klein, hilft uns, unsere 
+Aufgabe wahrzunehmen.</p>					</div>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-b638ec7 elementor-widget elementor-widget-html" data-id="b638ec7" data-element_type="widget" data-widget_type="html.default">
+				<div class="elementor-widget-container">
+			
+<noscript>
+    <ul class="woocommerce-error" role="alert">
+        <li>Bitte aktiviere JavaScript, um mit deiner Spende fortzufahren.</li>
+    </ul>
+</noscript>
+
+
+<div class="wc-donation-platform woocommerce " id="wcdp" style="visibility: visible; animation-name: wcdp-appear-animation; animation-duration: 1s;">
+    <div class="lds-ellipsis wcdp-loader" style="display: none;"><div></div><div></div><div></div><div></div></div>
+    		<style id="wcdp-css">
+			:root{
+				--wcdp-main: #2d3748;
+				--wcdp-main-2: #f49d4d;
+				--wcdp-main-3: #c4c4c4;
+				--wcdp-step-2: #2d3748;
+				--wcdp-step-3: #2d3748;
+				--label-inactive: LightGray;
+				--label-inactive-hover: #b5b5b5;
+				--label-text: black;
+				--label-text-checked: white;
+				--background-color: white;
+				--overlay-color: rgba(0, 0, 0, 0.8);
+				--controls: black;
+			}
+		</style>
+		
+<div class="wcdp-body">
+	
+<form class="variations_form cart wcdp-choose-donation" id="wcdp-post-send" method="post" action="https://dnip.ch/kasse/" autocomplete="off" enctype="multipart/form-data" data-product_id="4679" wcdp-error-default="Ein unerwarteter Fehler ist aufgetreten. Bitte lade die Seite neu und versuche es erneut. Wenn das Problem weiterhin besteht, wenden dich bitte an unser Support-Team.">
+	<input type="hidden" name="action" value="wcdp_ajax_donation_calculation">
+	<input type="hidden" name="security" value="66e6517129">
+	<input type="hidden" name="postid" value="4679">
+
+	<div id="wcdp_va_amount" class="wcdp_variation wcdp-row">
+			<label class="wcdp-variation-heading" for="donation-amount">
+			Wähle einen Betrag aus			<abbr class="required" title="erforderlich">*</abbr>
+		</label> <ul id="wcdp_amount" class="wcdp_options" wcdp-name="donation-amount"> <li><input type="radio" id="wcdp_amount_5" name="donation-amount" class="" value="5" required=""><label id="" class="wcdp-button-label" for="wcdp_amount_5"><span class="woocommerce-Price-currencySymbol">CHF</span>&nbsp;5</label></li><li><input type="radio" id="wcdp_amount_10" name="donation-amount" class="" value="10" required=""><label id="" class="wcdp-button-label" for="wcdp_amount_10"><span class="woocommerce-Price-currencySymbol">CHF</span>&nbsp;10</label></li><li><input type="radio" id="wcdp_amount_20" name="donation-amount" class="" value="20" required=""><label id="" class="wcdp-button-label" for="wcdp_amount_20"><span class="woocommerce-Price-currencySymbol">CHF</span>&nbsp;20</label></li><li><input type="radio" id="wcdp_amount_25" name="donation-amount" class="" value="25" required=""><label id="" class="wcdp-button-label" for="wcdp_amount_25"><span class="woocommerce-Price-currencySymbol">CHF</span>&nbsp;25</label></li><li><input type="radio" id="wcdp_amount_50" name="donation-amount" class="" value="50" required=""><label id="" class="wcdp-button-label" for="wcdp_amount_50"><span class="woocommerce-Price-currencySymbol">CHF</span>&nbsp;50</label></li><li><input type="radio" id="wcdp_amount_75" name="donation-amount" class="" value="75" required=""><label id="" class="wcdp-button-label" for="wcdp_amount_75"><span class="woocommerce-Price-currencySymbol">CHF</span>&nbsp;75</label></li><li><input type="radio" id="wcdp_amount_100" name="donation-amount" class="" value="100" required=""><label id="" class="wcdp-button-label" for="wcdp_amount_100"><span class="woocommerce-Price-currencySymbol">CHF</span>&nbsp;100</label></li><li><input type="radio" id="wcdp_amount_150" name="donation-amount" class="" value="150" required=""><label id="" class="wcdp-button-label" for="wcdp_amount_150"><span class="woocommerce-Price-currencySymbol">CHF</span>&nbsp;150</label></li><li><input type="radio" id="wcdp_amount_200" name="donation-amount" class="" value="200" required=""><label id="" class="wcdp-button-label" for="wcdp_amount_200"><span class="woocommerce-Price-currencySymbol">CHF</span>&nbsp;200</label></li><li><input type="radio" id="wcdp_amount_250" name="donation-amount" class="" value="250" required=""><label id="" class="wcdp-button-label" for="wcdp_amount_250"><span class="woocommerce-Price-currencySymbol">CHF</span>&nbsp;250</label></li><li><input type="radio" id="wcdp_amount_500" name="donation-amount" class="" value="500" required=""><label id="" class="wcdp-button-label" for="wcdp_amount_500"><span class="woocommerce-Price-currencySymbol">CHF</span>&nbsp;500</label></li><li><input type="radio" id="wcdp_amount_1000" name="donation-amount" class="" value="1000" required=""><label id="" class="wcdp-button-label" for="wcdp_amount_1000"><span class="woocommerce-Price-currencySymbol">CHF</span>&nbsp;1000</label></li><li><input type="radio" id="wcdp_value_other" name="donation-amount" class="" value="" required=""><label id="wcdp_label_custom_amount" class="wcdp-button-label" for="wcdp_value_other"><div id="wcdp_other">Anderer</div><div class="wcdp_cu_field"><span class="woocommerce-Price-currencySymbol">CHF</span>&nbsp;<input type="number" class="wcdf-input-field validate-required wcdp-input-style-3 " id="wcdp-donation-amount" name="wcdp-donation-amount" step="0.01" min="3" max="50000" required=""></div></label></li></ul></div>
+			<button class="button wcdp-button wcdp-right" type="submit">
+			Spenden&nbsp;<div class="wcdp-arrow wcdp-right-arrow">»</div>
+		</button>
+		<div class="wcdp-divider"></div>
+
+		<input style="display:none !important;" type="number" name="quantity" class="quantity qty" value="1">
+		<button style="display:none !important;" type="submit" name="add-to-cart" value="4679" class="single_add_to_cart_button button alt"></button>
+	</form>
+
+
+</div>
+</div>
+
+		</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-0d59aa0 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="0d59aa0" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-bca258b" data-id="bca258b" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-4c0dce7 elementor-widget elementor-widget-post-comments" data-id="4c0dce7" data-element_type="widget" data-widget_type="post-comments.theme_comments">
+				<div class="elementor-widget-container">
+			<section id="comments" class="comments-area">
+
+			<h3 class="title-comments">
+			Eine Antwort		</h3>
+
+		
+	<ol class="comment-list">
+				<li id="comment-4430" class="comment even thread-even depth-1">
+			<article id="div-comment-4430" class="comment-body">
+				<footer class="comment-meta">
+					<div class="comment-author vcard">
+						<img alt="Avatar-Foto" src="Responsible%20Disclosure,%20ein%20seeeehr%20breiter%20Begriff%20-%20Das%20Netz%20ist%20politisch-Dateien/default-avatar-150x150.png" srcset="Responsible%20Disclosure,%20ein%20seeeehr%20breiter%20Begriff%20-%20Das%20Netz%20ist%20politisch-Dateien/default-avatar-150x150.png 2x" class="avatar avatar-42 photo" loading="lazy" decoding="async" width="42" height="42">						<b class="fn">Sebastian Jaquiéry</b> <span class="says">sagt:</span>					</div><!-- .comment-author -->
+
+					<div class="comment-metadata">
+						<a href="https://dnip.ch/2023/05/16/responsible-disclosure-ein-seeeehr-breiter-begriff/#comment-4430"><time datetime="2023-05-16T08:47:52+02:00">16. Mai 2023 um 08:47&nbsp;Uhr</time></a>					</div><!-- .comment-metadata -->
+
+									</footer><!-- .comment-meta -->
+
+				<div class="comment-content">
+					<p>Vielen Dank für den spannenden und differenzierten Artikel! 
+Bestimmt wäre es hilfreich, wenn sich die ETH hierzu ein paar Guidelines
+ gäbe, damit allen klar ist, wie so eine Disclosure zwischen “abhängigen
+ Unternehmen” (ETH / Bundesverwaltung) und Beauftragten (Threema) 
+ablaufen soll. Dass die Arbeit der ETH an sich aber unabdingbar ist, 
+versteht sich von selbst…</p>
+				</div><!-- .comment-content -->
+
+				<div class="reply"><a rel="nofollow" class="comment-reply-link" href="#comment-4430" data-commentid="4430" data-postid="6844" data-belowelement="div-comment-4430" data-respondelement="respond" data-replyto="Antworte auf Sebastian Jaquiéry" aria-label="Antworte auf Sebastian Jaquiéry">Antworten</a></div>			</article><!-- .comment-body -->
+		</li><!-- #comment-## -->
+	</ol><!-- .comment-list -->
+
+		
+
+	<div id="respond" class="comment-respond">
+		<h2 id="reply-title" class="comment-reply-title">Schreibe einen Kommentar <small><a rel="nofollow" id="cancel-comment-reply-link" href="https://dnip.ch/2023/05/16/responsible-disclosure-ein-seeeehr-breiter-begriff/#respond" style="display:none;">Antworten abbrechen</a></small></h2><form action="https://dnip.ch/wp-comments-post.php" method="post" id="commentform" class="comment-form" novalidate=""><p class="comment-notes"><span id="email-notes">Deine E-Mail-Adresse wird nicht veröffentlicht.</span> <span class="required-field-message">Erforderliche Felder sind mit <span class="required">*</span> markiert</span></p><p class="comment-form-comment"><label for="comment">Kommentar <span class="required">*</span></label> <textarea autocomplete="new-password" id="comment" name="e590d56897" cols="45" rows="8" maxlength="65525" required=""></textarea><textarea id="aa2085e1ff70fb5607b44f5855b00861" aria-label="hp-comment" aria-hidden="true" name="comment" autocomplete="new-password" style="padding:0 !important;clip:rect(1px, 1px, 1px, 1px) !important;position:absolute !important;white-space:nowrap !important;height:1px !important;width:1px !important;overflow:hidden !important;" tabindex="-1"></textarea><script data-noptimize="">document.getElementById("comment").setAttribute( "id", "aa2085e1ff70fb5607b44f5855b00861" );document.getElementById("e590d56897").setAttribute( "id", "comment" );</script></p><p class="comment-form-author"><label for="author">Name <span class="required">*</span></label> <input id="author" name="author" type="text" size="30" maxlength="245" autocomplete="name" required=""></p>
+<p class="comment-form-email"><label for="email">E-Mail <span class="required">*</span></label> <input id="email" name="email" type="email" size="30" maxlength="100" aria-describedby="email-notes" autocomplete="email" required=""></p>
+<p class="comment-form-url"><label for="url">Website</label> <input id="url" name="url" type="url" size="30" maxlength="200" autocomplete="url"></p>
+<p class="comment-form-cookies-consent"><input id="wp-comment-cookies-consent" name="wp-comment-cookies-consent" type="checkbox" value="yes"> <label for="wp-comment-cookies-consent">Meinen Namen, meine E-Mail-Adresse und meine Website in diesem Browser, für die nächste Kommentierung, speichern.</label></p>
+<p class="comment-form-mailpoet">
+      <label for="mailpoet_subscribe_on_comment">
+        <input type="checkbox" id="mailpoet_subscribe_on_comment" value="1" name="mailpoet[subscribe_on_comment]">&nbsp;Ja, ich möchte die neuen Blogbeiträge via E-Mail abonnieren. Ich kann mich jederzeit wieder aus der Liste austragen.
+      </label>
+    </p><p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Kommentar abschicken"> <input type="hidden" name="comment_post_ID" value="6844" id="comment_post_ID">
+<input type="hidden" name="comment_parent" id="comment_parent" value="0">
+</p></form>	</div><!-- #respond -->
+	
+</section><!-- .comments-area -->
+		</div>
+				</div>
+				<div class="elementor-element elementor-element-09937bb elementor-widget elementor-widget-post-navigation" data-id="09937bb" data-element_type="widget" data-widget_type="post-navigation.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-post-navigation">
+			<div class="elementor-post-navigation__prev elementor-post-navigation__link">
+				<a href="https://dnip.ch/2023/05/08/ki-ist-kein-zufall/" rel="prev"><span class="post-navigation__arrow-wrapper post-navigation__arrow-prev"><i class="fa fa-angle-left" aria-hidden="true"></i><span class="elementor-screen-only">Prev</span></span><span class="elementor-post-navigation__link__prev"><span class="post-navigation__prev--title">KI ist kein Zufall</span></span></a>			</div>
+						<div class="elementor-post-navigation__next elementor-post-navigation__link">
+							</div>
+		</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-1239ee79 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="1239ee79" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-5b1da2e0" data-id="5b1da2e0" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-28ba4a78 elementor-widget elementor-widget-heading" data-id="28ba4a78" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Weitere Beiträge</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-6dad7e elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="6dad7e" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-5961ecc4 elementor-grid-2 elementor-posts--align-left elementor-grid-tablet-2 elementor-grid-mobile-1 elementor-posts--thumbnail-top elementor-widget elementor-widget-posts" data-id="5961ecc4" data-element_type="widget" data-settings="{&quot;classic_columns&quot;:&quot;2&quot;,&quot;classic_row_gap&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;classic_row_gap_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:80,&quot;sizes&quot;:[]},&quot;classic_row_gap_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:60,&quot;sizes&quot;:[]},&quot;classic_columns_tablet&quot;:&quot;2&quot;,&quot;classic_columns_mobile&quot;:&quot;1&quot;}" data-widget_type="posts.classic">
+				<div class="elementor-widget-container">
+					<div class="elementor-posts-container elementor-posts elementor-posts--skin-classic elementor-grid elementor-has-item-ratio">
+				<article class="elementor-post elementor-grid-item post-6809 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized tag-ai tag-algorithmen tag-chatgpt tag-datenschutz tag-determinismus tag-eliza tag-ki tag-machinelearning tag-neuronalesnetzwerk tag-nzz tag-random tag-symbolisch tag-zufall">
+				<a class="elementor-post__thumbnail__link" href="https://dnip.ch/2023/05/08/ki-ist-kein-zufall/">
+			<div class="elementor-post__thumbnail"><img src="Responsible%20Disclosure,%20ein%20seeeehr%20breiter%20Begriff%20-%20Das%20Netz%20ist%20politisch-Dateien/DALL%25C2%25B7E-2023-04-29-13.42.56-a-modern-flexible-artificia.jpeg" class="attachment-full size-full wp-image-6810" alt="Drei unterschiedliche Roboter auf einer Wiese. Generiert von DALL-E 2" loading="lazy" width="1668" height="1024"></div>
+		</a>
+				<div class="elementor-post__text">
+				<h3 class="elementor-post__title">
+			<a href="https://dnip.ch/2023/05/08/ki-ist-kein-zufall/">
+				KI ist kein Zufall			</a>
+		</h3>
+				<div class="elementor-post__meta-data">
+					<span class="elementor-post-author">
+			Marcel Waldvogel		</span>
+				<span class="elementor-post-date">
+			8. Mai 2023		</span>
+				</div>
+				<div class="elementor-post__excerpt">
+			<p>Moderne «Künstliche Intelligenz» gilt als notorisch unzuverlässig:
+ Sie liefere jedes Mal ein anderes Resultat und fabuliere gerne auch 
+drauflos. Die</p>
+		</div>
+		
+		<a class="elementor-post__read-more" href="https://dnip.ch/2023/05/08/ki-ist-kein-zufall/" aria-label="Read more about KI ist kein Zufall">
+			Weiterlesen »		</a>
+
+				</div>
+				</article>
+				<article class="elementor-post elementor-grid-item post-6515 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized tag-agb tag-datenschutz tag-eid tag-post tag-postcreatorapp tag-privacy tag-swissid">
+				<a class="elementor-post__thumbnail__link" href="https://dnip.ch/2023/04/25/swissid-und-die-datenabenteuer-der-post/">
+			<div class="elementor-post__thumbnail"><img src="Responsible%20Disclosure,%20ein%20seeeehr%20breiter%20Begriff%20-%20Das%20Netz%20ist%20politisch-Dateien/craiyon_150712_yellow_post_provider.png" class="attachment-full size-full wp-image-6744" alt="" loading="lazy" width="1024" height="1024"></div>
+		</a>
+				<div class="elementor-post__text">
+				<h3 class="elementor-post__title">
+			<a href="https://dnip.ch/2023/04/25/swissid-und-die-datenabenteuer-der-post/">
+				SwissID und die Datenabenteuer der Post			</a>
+		</h3>
+				<div class="elementor-post__meta-data">
+					<span class="elementor-post-author">
+			Adrienne Fichter		</span>
+				<span class="elementor-post-date">
+			25. April 2023		</span>
+				</div>
+				<div class="elementor-post__excerpt">
+			<p>Wie schafft man es fast das halbe Land digital zu bevormunden? Mit
+ einer Zwangs-App eines Quasi-Monopolisten. Das ist jetzt zugegeben</p>
+		</div>
+		
+		<a class="elementor-post__read-more" href="https://dnip.ch/2023/04/25/swissid-und-die-datenabenteuer-der-post/" aria-label="Read more about SwissID und die Datenabenteuer der Post">
+			Weiterlesen »		</a>
+
+				</div>
+				</article>
+				</div>
+		
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+							</div>
+				</div>
+				<footer data-elementor-type="footer" data-elementor-id="4267" class="elementor elementor-4267 elementor-location-footer">
+					<div class="elementor-section-wrap">
+								<footer class="elementor-section elementor-top-section elementor-element elementor-element-6bed7d58 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="6bed7d58" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-no">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-608ba606" data-id="608ba606" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-5847251d elementor-widget__width-auto elementor-position-top elementor-vertical-align-top elementor-widget elementor-widget-image-box" data-id="5847251d" data-element_type="widget" data-widget_type="image-box.default">
+				<div class="elementor-widget-container">
+			<div class="elementor-image-box-wrapper"><figure class="elementor-image-box-img"><a href="https://dnip.ch/"><img src="Responsible%20Disclosure,%20ein%20seeeehr%20breiter%20Begriff%20-%20Das%20Netz%20ist%20politisch-Dateien/Logo_dnip_V4_weiss.png" class="attachment-full size-full wp-image-4294" alt="" loading="lazy" width="4792" height="1812"></a></figure></div>		</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-5fa2c636" data-id="5fa2c636" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<section class="elementor-section elementor-inner-section elementor-element elementor-element-4a85dc0 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="4a85dc0" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-fad3eff" data-id="fad3eff" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-18865366 elementor-widget elementor-widget-heading" data-id="18865366" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Newsletter abonnieren</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-173f54d0 elementor-widget elementor-widget-text-editor" data-id="173f54d0" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<div class="elementor-text-editor elementor-clearfix">
+				… und auf dem neusten Stand bleiben					</div>
+						</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-37f86d1" data-id="37f86d1" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-db5759a elementor-widget__width-initial elementor-button-align-stretch elementor-widget elementor-widget-form" data-id="db5759a" data-element_type="widget" data-settings="{&quot;step_next_label&quot;:&quot;N\u00e4chster&quot;,&quot;step_previous_label&quot;:&quot;Voriger&quot;,&quot;button_width&quot;:&quot;40&quot;,&quot;step_type&quot;:&quot;number_text&quot;,&quot;step_icon_shape&quot;:&quot;circle&quot;}" data-widget_type="form.default">
+				<div class="elementor-widget-container">
+					<form class="elementor-form" method="post" name="Blogpost Abo">
+			<input type="hidden" name="post_id" value="4267">
+			<input type="hidden" name="form_id" value="db5759a">
+			<input type="hidden" name="referer_title" value="Responsible Disclosure, ein seeeehr breiter Begriff - Das Netz ist politisch">
+
+							<input type="hidden" name="queried_id" value="6844">
+			
+			<div class="elementor-form-fields-wrapper elementor-labels-">
+								<div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-60 elementor-field-required">
+												<label for="form-field-email" class="elementor-field-label elementor-screen-only">
+								E-MAIL							</label>
+														<input size="1" type="email" name="form_fields[email]" id="form-field-email" class="elementor-field elementor-size-lg  elementor-field-textual" placeholder="E-Mail" required="required" aria-required="true">
+											</div>
+								<div class="elementor-field-group elementor-column elementor-field-type-submit elementor-col-40 e-form__buttons">
+					<button type="submit" class="elementor-button elementor-size-md">
+						<span>
+															<span class=" elementor-button-icon">
+																										</span>
+																						<span class="elementor-button-text">SENDEN</span>
+													</span>
+					</button>
+				</div>
+			</div>
+		</form>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</footer>
+				<footer class="elementor-section elementor-top-section elementor-element elementor-element-7e419f6 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="7e419f6" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-no">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-795d16c" data-id="795d16c" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-e983b2d elementor-nav-menu--dropdown-none elementor-nav-menu__align-center elementor-widget elementor-widget-nav-menu" data-id="e983b2d" data-element_type="widget" data-settings="{&quot;layout&quot;:&quot;horizontal&quot;,&quot;submenu_icon&quot;:{&quot;value&quot;:&quot;&lt;i class=\&quot;fas fa-caret-down\&quot;&gt;&lt;\/i&gt;&quot;,&quot;library&quot;:&quot;fa-solid&quot;}}" data-widget_type="nav-menu.default">
+				<div class="elementor-widget-container">
+						<nav class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-horizontal e--pointer-text e--animation-skew">
+				<ul id="menu-1-e983b2d" class="elementor-nav-menu" data-smartmenus-id="16842309887430867"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-4392"><a rel="privacy-policy" href="https://dnip.ch/datenschutzerklaerung/" class="elementor-item">Datenschutzerklärung</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4390"><a href="https://dnip.ch/impressum/" class="elementor-item">Impressum</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4391"><a href="https://dnip.ch/kontakt/" class="elementor-item">Kontakt</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4750"><a href="https://dnip.ch/unterstuetzen/" class="elementor-item">Unterstützen</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4393"><a href="https://dnip.ch/ueber-uns/" class="elementor-item">Über Uns</a></li>
+</ul>			</nav>
+						<nav class="elementor-nav-menu--dropdown elementor-nav-menu__container" aria-hidden="true" style="--menu-height: 0;">
+				<ul id="menu-2-e983b2d" class="elementor-nav-menu" data-smartmenus-id="16842309887443774"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-4392"><a rel="privacy-policy" href="https://dnip.ch/datenschutzerklaerung/" class="elementor-item" tabindex="-1">Datenschutzerklärung</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4390"><a href="https://dnip.ch/impressum/" class="elementor-item" tabindex="-1">Impressum</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4391"><a href="https://dnip.ch/kontakt/" class="elementor-item" tabindex="-1">Kontakt</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4750"><a href="https://dnip.ch/unterstuetzen/" class="elementor-item" tabindex="-1">Unterstützen</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4393"><a href="https://dnip.ch/ueber-uns/" class="elementor-item" tabindex="-1">Über Uns</a></li>
+</ul>			</nav>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</footer>
+							</div>
+				</footer>
+		
+<!-- Matomo --><script type="text/javascript">var _paq = window._paq = window._paq || [];
+_paq.push(['setVisitorCookieTimeout', 34186669]);
+_paq.push(['setSessionCookieTimeout', 1800]);
+_paq.push(['setReferralCookieTimeout', 15778463]);_paq.push(['trackPageView']);_paq.push(['enableLinkTracking']);_paq.push(['alwaysUseSendBeacon']);_paq.push(['setTrackerUrl', "\/\/dnip.ch\/wp-content\/plugins\/matomo\/app\/matomo.php"]);_paq.push(['setSiteId', '1']);var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+g.type='text/javascript'; g.async=true; g.src="\/\/dnip.ch\/wp-content\/uploads\/matomo\/matomo.js"; s.parentNode.insertBefore(g,s);</script><!-- End Matomo Code -->	<script type="text/javascript">
+		(function () {
+			var c = document.body.className;
+			c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
+			document.body.className = c;
+		})();
+	</script>
+	<link rel="stylesheet" id="elementor-icons-fa-regular-css" href="Responsible%20Disclosure,%20ein%20seeeehr%20breiter%20Begriff%20-%20Das%20Netz%20ist%20politisch-Dateien/regular.min.css" media="all">
+<link rel="stylesheet" id="select2-css" href="Responsible%20Disclosure,%20ein%20seeeehr%20breiter%20Begriff%20-%20Das%20Netz%20ist%20politisch-Dateien/select2.css" media="all">
+<link rel="stylesheet" id="wc-donation-platform-css" href="Responsible%20Disclosure,%20ein%20seeeehr%20breiter%20Begriff%20-%20Das%20Netz%20ist%20politisch-Dateien/wcdp.min.css" media="all">
+<link rel="stylesheet" id="e-animations-css" href="Responsible%20Disclosure,%20ein%20seeeehr%20breiter%20Begriff%20-%20Das%20Netz%20ist%20politisch-Dateien/animations.min.css" media="all">
+<script src="Responsible%20Disclosure,%20ein%20seeeehr%20breiter%20Begriff%20-%20Das%20Netz%20ist%20politisch-Dateien/jquery.blockUI.min.js" id="jquery-blockui-js"></script>
+<script id="wc-add-to-cart-js-extra">
+var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","i18n_view_cart":"Warenkorb anzeigen","cart_url":"https:\/\/dnip.ch\/warenkorb\/","is_cart":"","cart_redirect_after_add":"no"};
+</script>
+<script src="Responsible%20Disclosure,%20ein%20seeeehr%20breiter%20Begriff%20-%20Das%20Netz%20ist%20politisch-Dateien/add-to-cart.min.js" id="wc-add-to-cart-js"></script>
+<script src="Responsible%20Disclosure,%20ein%20seeeehr%20breiter%20Begriff%20-%20Das%20Netz%20ist%20politisch-Dateien/js.cookie.min.js" id="js-cookie-js"></script>
+<script id="woocommerce-js-extra">
+var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%"};
+</script>
+<script src="Responsible%20Disclosure,%20ein%20seeeehr%20breiter%20Begriff%20-%20Das%20Netz%20ist%20politisch-Dateien/woocommerce.min.js" id="woocommerce-js"></script>
+<script id="wc-cart-fragments-js-extra">
+var wc_cart_fragments_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","cart_hash_key":"wc_cart_hash_ba01d48703759bf9af37c73505d07806","fragment_name":"wc_fragments_ba01d48703759bf9af37c73505d07806","request_timeout":"5000"};
+</script>
+<script src="Responsible%20Disclosure,%20ein%20seeeehr%20breiter%20Begriff%20-%20Das%20Netz%20ist%20politisch-Dateien/cart-fragments.min.js" id="wc-cart-fragments-js"></script>
+<script src="Responsible%20Disclosure,%20ein%20seeeehr%20breiter%20Begriff%20-%20Das%20Netz%20ist%20politisch-Dateien/jquery.smartmenus.min.js" id="smartmenus-js"></script>
+<script src="Responsible%20Disclosure,%20ein%20seeeehr%20breiter%20Begriff%20-%20Das%20Netz%20ist%20politisch-Dateien/comment-reply.min.js" id="comment-reply-js"></script>
+<script src="Responsible%20Disclosure,%20ein%20seeeehr%20breiter%20Begriff%20-%20Das%20Netz%20ist%20politisch-Dateien/imagesloaded.min.js" id="imagesloaded-js"></script>
+<script src="Responsible%20Disclosure,%20ein%20seeeehr%20breiter%20Begriff%20-%20Das%20Netz%20ist%20politisch-Dateien/selectWoo.full.min.js" id="selectWoo-js"></script>
+<script id="wc-country-select-js-extra">
+var wc_country_select_params = {"countries":"{\"CH\":{\"AG\":\"Aargau\",\"AR\":\"Appenzell Ausserrhoden\",\"AI\":\"Appenzell Innerrhoden\",\"BL\":\"Basel-Landschaft\",\"BS\":\"Basel-Stadt\",\"BE\":\"Bern\",\"FR\":\"Freiburg\",\"GE\":\"Genf\",\"GL\":\"Glarus\",\"GR\":\"Graub\\u00fcnden\",\"JU\":\"Jura\",\"LU\":\"Luzern\",\"NE\":\"Neuch\\u00e2tel\",\"NW\":\"Nidwalden\",\"OW\":\"Obwalden\",\"SH\":\"Schaffhausen\",\"SZ\":\"Schwyz\",\"SO\":\"Solothurn\",\"SG\":\"St. Gallen\",\"TG\":\"Thurgau\",\"TI\":\"Tessin\",\"UR\":\"Uri\",\"VS\":\"Wallis\",\"VD\":\"Waadt\",\"ZG\":\"Zug\",\"ZH\":\"Z\\u00fcrich\"}}","i18n_select_state_text":"W\u00e4hle eine Option\u2026","i18n_no_matches":"Keine Treffer gefunden","i18n_ajax_error":"Laden fehlgeschlagen","i18n_input_too_short_1":"Bitte 1 oder mehr Buchstaben eingeben","i18n_input_too_short_n":"Bitte %qty% oder mehr Buchstaben eingeben","i18n_input_too_long_1":"Bitte 1 Buchstaben l\u00f6schen","i18n_input_too_long_n":"Bitte %qty% Buchstaben l\u00f6schen","i18n_selection_too_long_1":"Du kannst nur 1 Produkt ausw\u00e4hlen","i18n_selection_too_long_n":"Du kannst nur %qty% Produkte ausw\u00e4hlen","i18n_load_more":"Weitere Ergebnisse anzeigen\u2026","i18n_searching":"Suche nach\u2026"};
+</script>
+<script src="Responsible%20Disclosure,%20ein%20seeeehr%20breiter%20Begriff%20-%20Das%20Netz%20ist%20politisch-Dateien/country-select.min.js" id="wc-country-select-js"></script>
+<script id="wc-address-i18n-js-extra">
+var wc_address_i18n_params = {"locale":"{\"CH\":{\"postcode\":{\"priority\":65,\"required\":true},\"state\":{\"required\":false}},\"default\":{\"first_name\":{\"required\":true,\"autocomplete\":\"given-name\",\"priority\":10},\"last_name\":{\"required\":true,\"autocomplete\":\"family-name\",\"priority\":20},\"company\":{\"autocomplete\":\"organization\",\"priority\":30,\"required\":false},\"country\":{\"type\":\"country\",\"required\":true,\"autocomplete\":\"country\",\"priority\":40},\"address_1\":{\"required\":true,\"autocomplete\":\"address-line1\",\"priority\":50},\"address_2\":{\"label_class\":[\"screen-reader-text\"],\"autocomplete\":\"address-line2\",\"priority\":60,\"required\":false},\"city\":{\"required\":true,\"autocomplete\":\"address-level2\",\"priority\":70},\"state\":{\"type\":\"state\",\"required\":true,\"validate\":[\"state\"],\"autocomplete\":\"address-level1\",\"priority\":80},\"postcode\":{\"required\":true,\"validate\":[\"postcode\"],\"autocomplete\":\"postal-code\",\"priority\":90}}}","locale_fields":"{\"address_1\":\"#billing_address_1_field, #shipping_address_1_field\",\"address_2\":\"#billing_address_2_field, #shipping_address_2_field\",\"state\":\"#billing_state_field, #shipping_state_field, #calc_shipping_state_field\",\"postcode\":\"#billing_postcode_field, #shipping_postcode_field, #calc_shipping_postcode_field\",\"city\":\"#billing_city_field, #shipping_city_field, #calc_shipping_city_field\"}","i18n_required_text":"erforderlich","i18n_optional_text":"optional"};
+</script>
+<script src="Responsible%20Disclosure,%20ein%20seeeehr%20breiter%20Begriff%20-%20Das%20Netz%20ist%20politisch-Dateien/address-i18n.min.js" id="wc-address-i18n-js"></script>
+<script id="wc-checkout-js-extra">
+var wc_checkout_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","update_order_review_nonce":"d57d312718","apply_coupon_nonce":"2a57fd19e7","remove_coupon_nonce":"2ae593cac5","option_guest_checkout":"yes","checkout_url":"\/?wc-ajax=checkout","is_checkout":"0","debug_mode":"","i18n_checkout_error":"Fehler beim Bezahlvorgang. Versuche es bitte nochmal."};
+</script>
+<script src="Responsible%20Disclosure,%20ein%20seeeehr%20breiter%20Begriff%20-%20Das%20Netz%20ist%20politisch-Dateien/checkout.min.js" id="wc-checkout-js"></script>
+<script src="Responsible%20Disclosure,%20ein%20seeeehr%20breiter%20Begriff%20-%20Das%20Netz%20ist%20politisch-Dateien/select2.full.min.js" id="select2-js"></script>
+<script id="wc-cart-js-extra">
+var wc_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","update_shipping_method_nonce":"b5279ab26c","apply_coupon_nonce":"2a57fd19e7","remove_coupon_nonce":"2ae593cac5"};
+</script>
+<script src="Responsible%20Disclosure,%20ein%20seeeehr%20breiter%20Begriff%20-%20Das%20Netz%20ist%20politisch-Dateien/cart.min.js" id="wc-cart-js"></script>
+<script src="Responsible%20Disclosure,%20ein%20seeeehr%20breiter%20Begriff%20-%20Das%20Netz%20ist%20politisch-Dateien/wcdp.min.js" id="wc-donation-platform-js"></script>
+<script src="Responsible%20Disclosure,%20ein%20seeeehr%20breiter%20Begriff%20-%20Das%20Netz%20ist%20politisch-Dateien/webpack-pro.runtime.min.js" id="elementor-pro-webpack-runtime-js"></script>
+<script src="Responsible%20Disclosure,%20ein%20seeeehr%20breiter%20Begriff%20-%20Das%20Netz%20ist%20politisch-Dateien/webpack.runtime.min.js" id="elementor-webpack-runtime-js"></script>
+<script src="Responsible%20Disclosure,%20ein%20seeeehr%20breiter%20Begriff%20-%20Das%20Netz%20ist%20politisch-Dateien/frontend-modules.min.js" id="elementor-frontend-modules-js"></script>
+<script src="Responsible%20Disclosure,%20ein%20seeeehr%20breiter%20Begriff%20-%20Das%20Netz%20ist%20politisch-Dateien/wp-polyfill-inert.min.js" id="wp-polyfill-inert-js"></script>
+<script src="Responsible%20Disclosure,%20ein%20seeeehr%20breiter%20Begriff%20-%20Das%20Netz%20ist%20politisch-Dateien/regenerator-runtime.min.js" id="regenerator-runtime-js"></script>
+<script src="Responsible%20Disclosure,%20ein%20seeeehr%20breiter%20Begriff%20-%20Das%20Netz%20ist%20politisch-Dateien/wp-polyfill.min.js" id="wp-polyfill-js"></script>
+<script src="Responsible%20Disclosure,%20ein%20seeeehr%20breiter%20Begriff%20-%20Das%20Netz%20ist%20politisch-Dateien/hooks.min.js" id="wp-hooks-js"></script>
+<script src="Responsible%20Disclosure,%20ein%20seeeehr%20breiter%20Begriff%20-%20Das%20Netz%20ist%20politisch-Dateien/i18n.min.js" id="wp-i18n-js"></script>
+<script id="wp-i18n-js-after">
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+</script>
+<script id="elementor-pro-frontend-js-before">
+var ElementorProFrontendConfig = {"ajaxurl":"https:\/\/dnip.ch\/wp-admin\/admin-ajax.php","nonce":"5fbf4ec376","urls":{"assets":"https:\/\/dnip.ch\/wp-content\/plugins\/elementor-pro\/assets\/","rest":"https:\/\/dnip.ch\/wp-json\/"},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"}},"woocommerce":{"menu_cart":{"cart_page_url":"https:\/\/dnip.ch\/warenkorb\/","checkout_page_url":"https:\/\/dnip.ch\/kasse\/","fragments_nonce":"8baab43de4"}},"facebook_sdk":{"lang":"de_DE","app_id":""},"lottie":{"defaultAnimationUrl":"https:\/\/dnip.ch\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"}};
+</script>
+<script src="Responsible%20Disclosure,%20ein%20seeeehr%20breiter%20Begriff%20-%20Das%20Netz%20ist%20politisch-Dateien/frontend.min.js" id="elementor-pro-frontend-js"></script>
+<script src="Responsible%20Disclosure,%20ein%20seeeehr%20breiter%20Begriff%20-%20Das%20Netz%20ist%20politisch-Dateien/waypoints.min.js" id="elementor-waypoints-js"></script>
+<script src="Responsible%20Disclosure,%20ein%20seeeehr%20breiter%20Begriff%20-%20Das%20Netz%20ist%20politisch-Dateien/core.min.js" id="jquery-ui-core-js"></script>
+<script src="Responsible%20Disclosure,%20ein%20seeeehr%20breiter%20Begriff%20-%20Das%20Netz%20ist%20politisch-Dateien/swiper.min.js" id="swiper-js"></script>
+<script src="Responsible%20Disclosure,%20ein%20seeeehr%20breiter%20Begriff%20-%20Das%20Netz%20ist%20politisch-Dateien/share-link.min.js" id="share-link-js"></script>
+<script src="Responsible%20Disclosure,%20ein%20seeeehr%20breiter%20Begriff%20-%20Das%20Netz%20ist%20politisch-Dateien/dialog.min.js" id="elementor-dialog-js"></script>
+<script id="elementor-frontend-js-before">
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Auf Facebook teilen","shareOnTwitter":"Auf Twitter teilen","pinIt":"Anheften","download":"Download","downloadImage":"Bild downloaden","fullscreen":"Vollbild","zoom":"Zoom","share":"Teilen","playVideo":"Video abspielen","previous":"Zur\u00fcck","next":"Weiter","close":"Schlie\u00dfen"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1301,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobile Portrait","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Landscape","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet Portrait","value":1300,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Landscape","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Breitbild","value":2400,"default_value":2400,"direction":"min","is_enabled":false}}},"version":"3.13.2","is_static":false,"experimentalFeatures":{"a11y_improvements":true,"additional_custom_breakpoints":true,"theme_builder_v2":true,"landing-pages":true,"page-transitions":true,"notes":true,"loop":true,"form-submissions":true,"e_scroll_snap":true},"urls":{"assets":"https:\/\/dnip.ch\/wp-content\/plugins\/elementor\/assets\/"},"swiperClass":"swiper-container","settings":{"page":[],"editorPreferences":[]},"kit":{"body_background_background":"classic","viewport_tablet":1300,"active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description","woocommerce_notices_elements":[]},"post":{"id":6844,"title":"Responsible%20Disclosure%2C%20ein%20seeeehr%20breiter%20Begriff%20-%20Das%20Netz%20ist%20politisch","excerpt":"","featuredImage":"https:\/\/dnip.ch\/wp-content\/uploads\/2023\/05\/door-g14dc8744f_1920-1024x546.jpg"}};
+</script>
+<script src="Responsible%20Disclosure,%20ein%20seeeehr%20breiter%20Begriff%20-%20Das%20Netz%20ist%20politisch-Dateien/frontend.min_002.js" id="elementor-frontend-js"></script><span id="elementor-device-mode" class="elementor-screen-only"></span>
+<script src="Responsible%20Disclosure,%20ein%20seeeehr%20breiter%20Begriff%20-%20Das%20Netz%20ist%20politisch-Dateien/preloaded-elements-handlers.min.js" id="pro-preloaded-elements-handlers-js"></script><svg style="display: none;" class="e-font-icon-svg-symbols"></svg>
+<script src="Responsible%20Disclosure,%20ein%20seeeehr%20breiter%20Begriff%20-%20Das%20Netz%20ist%20politisch-Dateien/preloaded-modules.min.js" id="preloaded-modules-js"></script><svg style="display: none;" class="e-font-icon-svg-symbols"></svg>
+<script src="Responsible%20Disclosure,%20ein%20seeeehr%20breiter%20Begriff%20-%20Das%20Netz%20ist%20politisch-Dateien/jquery.sticky.min.js" id="e-sticky-js"></script>
+
+
+
+</body></html>

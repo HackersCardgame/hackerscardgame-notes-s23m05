@@ -1,0 +1,112 @@
+.elementor-kit-12{--e-global-color-primary:#F49D4D;--e-global-color-secondary:#2D3748;--e-global-color-text:#C4C4C4;--e-global-color-accent:#FFFFFF;--e-global-color-633d136:#55D8BF;--e-global-typography-primary-font-family:"Share Tech Mono";--e-global-typography-primary-font-size:5.3em;--e-global-typography-primary-font-weight:600;--e-global-typography-primary-text-transform:none;--e-global-typography-primary-font-style:normal;--e-global-typography-primary-text-decoration:none;--e-global-typography-primary-line-height:1.2em;--e-global-typography-primary-letter-spacing:-1.5px;--e-global-typography-secondary-font-family:"Share Tech Mono";--e-global-typography-secondary-font-size:2.7em;--e-global-typography-secondary-font-weight:600;--e-global-typography-secondary-text-transform:none;--e-global-typography-secondary-font-style:normal;--e-global-typography-secondary-text-decoration:none;--e-global-typography-secondary-letter-spacing:-0.3px;--e-global-typography-text-font-family:"Assistant";--e-global-typography-text-font-size:1.1em;--e-global-typography-text-font-weight:400;--e-global-typography-text-text-transform:none;--e-global-typography-text-font-style:normal;--e-global-typography-text-text-decoration:none;--e-global-typography-text-line-height:1.5em;--e-global-typography-text-letter-spacing:0px;--e-global-typography-accent-font-family:"Share Tech Mono";--e-global-typography-accent-font-size:1em;--e-global-typography-accent-font-weight:400;--e-global-typography-accent-text-transform:uppercase;--e-global-typography-accent-font-style:normal;--e-global-typography-accent-text-decoration:none;--e-global-typography-accent-line-height:1.5em;--e-global-typography-accent-letter-spacing:-0.5px;--e-global-typography-e33e2b0-font-family:"Share Tech Mono";--e-global-typography-e33e2b0-font-size:1.7em;--e-global-typography-e33e2b0-font-weight:600;--e-global-typography-e33e2b0-line-height:1.2em;--e-global-typography-e33e2b0-letter-spacing:-1px;--e-global-typography-f8d5444-font-family:"Share Tech Mono";--e-global-typography-f8d5444-font-size:1.3em;--e-global-typography-f8d5444-font-weight:600;--e-global-typography-f8d5444-line-height:1.15em;--e-global-typography-f8d5444-letter-spacing:-1px;--e-global-typography-7ba7806-font-family:"Share Tech Mono";--e-global-typography-7ba7806-font-size:1.1em;--e-global-typography-7ba7806-font-weight:500;--e-global-typography-7ba7806-letter-spacing:-0.8px;color:var( --e-global-color-secondary );font-family:var( --e-global-typography-text-font-family ), Sans-serif;font-size:var( --e-global-typography-text-font-size );font-weight:var( --e-global-typography-text-font-weight );text-transform:var( --e-global-typography-text-text-transform );font-style:var( --e-global-typography-text-font-style );text-decoration:var( --e-global-typography-text-text-decoration );line-height:var( --e-global-typography-text-line-height );letter-spacing:var( --e-global-typography-text-letter-spacing );background-color:var( --e-global-color-accent );}.elementor-kit-12 p{margin-bottom:0.7em;}.elementor-kit-12 a{color:var( --e-global-color-primary );}.elementor-kit-12 a:hover{color:#55D8BF;}.elementor-kit-12 h1{color:var( --e-global-color-secondary );font-family:var( --e-global-typography-primary-font-family ), Sans-serif;font-size:var( --e-global-typography-primary-font-size );font-weight:var( --e-global-typography-primary-font-weight );text-transform:var( --e-global-typography-primary-text-transform );font-style:var( --e-global-typography-primary-font-style );text-decoration:var( --e-global-typography-primary-text-decoration );line-height:var( --e-global-typography-primary-line-height );letter-spacing:var( --e-global-typography-primary-letter-spacing );}.elementor-kit-12 h2{color:var( --e-global-color-secondary );font-family:var( --e-global-typography-secondary-font-family ), Sans-serif;font-size:var( --e-global-typography-secondary-font-size );font-weight:var( --e-global-typography-secondary-font-weight );text-transform:var( --e-global-typography-secondary-text-transform );font-style:var( --e-global-typography-secondary-font-style );text-decoration:var( --e-global-typography-secondary-text-decoration );letter-spacing:var( --e-global-typography-secondary-letter-spacing );}.elementor-kit-12 h3{color:var( --e-global-color-secondary );font-family:var( --e-global-typography-e33e2b0-font-family ), Sans-serif;font-size:var( --e-global-typography-e33e2b0-font-size );font-weight:var( --e-global-typography-e33e2b0-font-weight );line-height:var( --e-global-typography-e33e2b0-line-height );letter-spacing:var( --e-global-typography-e33e2b0-letter-spacing );word-spacing:var( --e-global-typography-e33e2b0-word-spacing );}.elementor-kit-12 h4{color:var( --e-global-color-secondary );font-family:var( --e-global-typography-f8d5444-font-family ), Sans-serif;font-size:var( --e-global-typography-f8d5444-font-size );font-weight:var( --e-global-typography-f8d5444-font-weight );line-height:var( --e-global-typography-f8d5444-line-height );letter-spacing:var( --e-global-typography-f8d5444-letter-spacing );word-spacing:var( --e-global-typography-f8d5444-word-spacing );}.elementor-kit-12 h5{color:var( --e-global-color-secondary );font-family:var( --e-global-typography-7ba7806-font-family ), Sans-serif;font-size:var( --e-global-typography-7ba7806-font-size );font-weight:var( --e-global-typography-7ba7806-font-weight );line-height:var( --e-global-typography-7ba7806-line-height );letter-spacing:var( --e-global-typography-7ba7806-letter-spacing );word-spacing:var( --e-global-typography-7ba7806-word-spacing );}.elementor-kit-12 h6{color:var( --e-global-color-secondary );font-family:"Share Tech Mono", Sans-serif;font-size:1em;}.elementor-kit-12 button,.elementor-kit-12 input[type="button"],.elementor-kit-12 input[type="submit"],.elementor-kit-12 .elementor-button{font-family:var( --e-global-typography-accent-font-family ), Sans-serif;font-size:var( --e-global-typography-accent-font-size );font-weight:var( --e-global-typography-accent-font-weight );text-transform:var( --e-global-typography-accent-text-transform );font-style:var( --e-global-typography-accent-font-style );text-decoration:var( --e-global-typography-accent-text-decoration );line-height:var( --e-global-typography-accent-line-height );letter-spacing:var( --e-global-typography-accent-letter-spacing );color:var( --e-global-color-accent );background-color:var( --e-global-color-primary );border-radius:40px 40px 40px 40px;}.elementor-kit-12 button:hover,.elementor-kit-12 button:focus,.elementor-kit-12 input[type="button"]:hover,.elementor-kit-12 input[type="button"]:focus,.elementor-kit-12 input[type="submit"]:hover,.elementor-kit-12 input[type="submit"]:focus,.elementor-kit-12 .elementor-button:hover,.elementor-kit-12 .elementor-button:focus{color:var( --e-global-color-secondary );background-color:var( --e-global-color-accent );}.elementor-section.elementor-section-boxed > .elementor-container{max-width:1300px;}.e-con{--container-max-width:1300px;}.elementor-widget:not(:last-child){margin-bottom:20px;}.elementor-element{--widgets-spacing:20px;}{}h1.entry-title{display:var(--page-title-display);}.elementor-kit-12 e-page-transition{background-color:#FFBC7D;}@media(max-width:1300px){.elementor-kit-12{--e-global-typography-primary-font-size:5.3em;--e-global-typography-primary-line-height:1.1em;--e-global-typography-e33e2b0-line-height:1.1em;font-size:var( --e-global-typography-text-font-size );line-height:var( --e-global-typography-text-line-height );letter-spacing:var( --e-global-typography-text-letter-spacing );}.elementor-kit-12 h1{font-size:var( --e-global-typography-primary-font-size );line-height:var( --e-global-typography-primary-line-height );letter-spacing:var( --e-global-typography-primary-letter-spacing );}.elementor-kit-12 h2{font-size:var( --e-global-typography-secondary-font-size );letter-spacing:var( --e-global-typography-secondary-letter-spacing );}.elementor-kit-12 h3{font-size:var( --e-global-typography-e33e2b0-font-size );line-height:var( --e-global-typography-e33e2b0-line-height );letter-spacing:var( --e-global-typography-e33e2b0-letter-spacing );word-spacing:var( --e-global-typography-e33e2b0-word-spacing );}.elementor-kit-12 h4{font-size:var( --e-global-typography-f8d5444-font-size );line-height:var( --e-global-typography-f8d5444-line-height );letter-spacing:var( --e-global-typography-f8d5444-letter-spacing );word-spacing:var( --e-global-typography-f8d5444-word-spacing );}.elementor-kit-12 h5{font-size:var( --e-global-typography-7ba7806-font-size );line-height:var( --e-global-typography-7ba7806-line-height );letter-spacing:var( --e-global-typography-7ba7806-letter-spacing );word-spacing:var( --e-global-typography-7ba7806-word-spacing );}.elementor-kit-12 button,.elementor-kit-12 input[type="button"],.elementor-kit-12 input[type="submit"],.elementor-kit-12 .elementor-button{font-size:var( --e-global-typography-accent-font-size );line-height:var( --e-global-typography-accent-line-height );letter-spacing:var( --e-global-typography-accent-letter-spacing );}.elementor-section.elementor-section-boxed > .elementor-container{max-width:1000px;}.e-con{--container-max-width:1000px;}}@media(max-width:767px){.elementor-kit-12{--e-global-typography-primary-font-size:3.1em;--e-global-typography-secondary-font-size:2.2em;--e-global-typography-e33e2b0-font-size:1.6em;--e-global-typography-e33e2b0-line-height:1.25em;--e-global-typography-f8d5444-font-size:1.2em;--e-global-typography-7ba7806-font-size:1em;--e-global-typography-7ba7806-line-height:1.1em;font-size:var( --e-global-typography-text-font-size );line-height:var( --e-global-typography-text-line-height );letter-spacing:var( --e-global-typography-text-letter-spacing );}.elementor-kit-12 h1{font-size:var( --e-global-typography-primary-font-size );line-height:var( --e-global-typography-primary-line-height );letter-spacing:var( --e-global-typography-primary-letter-spacing );}.elementor-kit-12 h2{font-size:var( --e-global-typography-secondary-font-size );letter-spacing:var( --e-global-typography-secondary-letter-spacing );}.elementor-kit-12 h3{font-size:var( --e-global-typography-e33e2b0-font-size );line-height:var( --e-global-typography-e33e2b0-line-height );letter-spacing:var( --e-global-typography-e33e2b0-letter-spacing );word-spacing:var( --e-global-typography-e33e2b0-word-spacing );}.elementor-kit-12 h4{font-size:var( --e-global-typography-f8d5444-font-size );line-height:var( --e-global-typography-f8d5444-line-height );letter-spacing:var( --e-global-typography-f8d5444-letter-spacing );word-spacing:var( --e-global-typography-f8d5444-word-spacing );}.elementor-kit-12 h5{font-size:var( --e-global-typography-7ba7806-font-size );line-height:var( --e-global-typography-7ba7806-line-height );letter-spacing:var( --e-global-typography-7ba7806-letter-spacing );word-spacing:var( --e-global-typography-7ba7806-word-spacing );}.elementor-kit-12 button,.elementor-kit-12 input[type="button"],.elementor-kit-12 input[type="submit"],.elementor-kit-12 .elementor-button{font-size:var( --e-global-typography-accent-font-size );line-height:var( --e-global-typography-accent-line-height );letter-spacing:var( --e-global-typography-accent-letter-spacing );}.elementor-section.elementor-section-boxed > .elementor-container{max-width:767px;}.e-con{--container-max-width:767px;}}/* Start custom CSS *//* Single Post */
+
+.single-post h2 {
+    margin-top: 0.9em;
+    margin-bottom: 0.3em;
+    hyphens: auto;
+}
+
+.single-post h3 {
+    margin-top: 1.1em;
+    margin-bottom: 0.5em;
+    hyphens: auto;
+}
+
+.single-post h4 {
+    margin-top: 1.2em;
+    margin-bottom: 0.3em;
+    hyphens: auto;
+}
+
+.single-post ul li {
+    margin-bottom: 0.5em;
+}
+
+.wp-block-quote {
+    font-style: italic;
+    margin-left: 3px;
+    padding-left: 25px;
+    border-left: 3px #2D3748 solid;
+    margin-right: 0;
+}
+
+#commentform label {
+    line-height: 1.5;
+}
+
+
+/* Mobile Ansicht */
+
+h1, h2, h3, h4, h5, code {
+    hyphens: auto;
+}
+
+/* schwarze Links */
+
+.black-link a {
+    color: #2D3748;
+}
+
+/* weisser Hover Links */
+
+.white-hover-link a:hover {
+    color: #FFF;
+}/* End custom CSS */
+/* Start Custom Fonts CSS */@font-face {
+	font-family: 'Share Tech Mono';
+	font-style: normal;
+	font-weight: 400;
+	font-display: auto;
+	src: url('https://dnip.ch/wp-content/uploads/2022/10/ShareTechMono-Regular.ttf') format('truetype');
+}
+/* End Custom Fonts CSS */
+/* Start Custom Fonts CSS */@font-face {
+	font-family: 'Assistant';
+	font-style: normal;
+	font-weight: 200;
+	font-display: auto;
+	src: url('https://dnip.ch/wp-content/uploads/2022/10/Assistant-ExtraLight.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Assistant';
+	font-style: normal;
+	font-weight: 300;
+	font-display: auto;
+	src: url('https://dnip.ch/wp-content/uploads/2022/10/Assistant-Light.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Assistant';
+	font-style: normal;
+	font-weight: 400;
+	font-display: auto;
+	src: url('https://dnip.ch/wp-content/uploads/2022/10/Assistant-Regular.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Assistant';
+	font-style: normal;
+	font-weight: 500;
+	font-display: auto;
+	src: url('https://dnip.ch/wp-content/uploads/2022/10/Assistant-Medium.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Assistant';
+	font-style: normal;
+	font-weight: 600;
+	font-display: auto;
+	src: url('https://dnip.ch/wp-content/uploads/2022/10/Assistant-SemiBold.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Assistant';
+	font-style: normal;
+	font-weight: 700;
+	font-display: auto;
+	src: url('https://dnip.ch/wp-content/uploads/2022/10/Assistant-Bold.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Assistant';
+	font-style: normal;
+	font-weight: 800;
+	font-display: auto;
+	src: url('https://dnip.ch/wp-content/uploads/2022/10/Assistant-ExtraBold.ttf') format('truetype');
+}
+/* End Custom Fonts CSS */

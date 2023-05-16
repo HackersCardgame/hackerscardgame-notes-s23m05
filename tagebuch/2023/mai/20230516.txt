@@ -227,3 +227,5 @@ Tue May 16 16:51:26 CEST 2023
 Klingelfuss::unscheinbarer_getarnter_regelmässiger_modus::enable()] "und das grad nach dem ich so dinge sage wie 'interaktiv zum eeg'
 
 
+Dann rechtlcihe Perspektive: die nutzen solche schachzüge, weil man so etwas vor gericht nur schlecht oder fast gar nicth beweisen kann wenn man nicht die quellen-,kanal-,...-codierung und die Frequenz kennt. wäre aber auch wieder ein weiteres indiz für jemanden der am SS7 Protokoll herum bastelt
+

@@ -1,0 +1,4 @@
+;/*FB_PKG_DELIM*/
+
+__d("LSDeleteThenInsertReactionV2Type",[],(function(a,b,c,d,e,f){function a(){var a=arguments,b=a[a.length-1];b.n;var c=[];return b.seq([function(c){return b.db.table(229).put({reactionFbid:a[0],reactionLiteral:a[1],reactionLiteralVariant16:a[2]})},function(a){return b.resolve(c)}])}b=a;f["default"]=b}),66);
+__d("LSTruncateReactionsV2Database",[],(function(a,b,c,d,e,f){function a(){var a=arguments,b=a[a.length-1];b.n;var c=[];return b.seq([function(c){return a[0]?b.fe(b.db.table(229).fetch(),function(a){return a["delete"]()}):b.fe(b.db.table(229).fetch(),function(a){return a["delete"]()})},function(a){return b.resolve(c)}])}b=a;f["default"]=b}),66);

@@ -1,0 +1,75 @@
+Hallo Nicholas und Daniel
+
+Ich hab das auch nicht studiert. Ich habe eine Schizophrenie-Erkrankung und diese zwingt mich genauer mit meinen Denkprozessen auseinander zu setzen. Mir hat es eigentlich sehr geholfen mal noch den Coursera Kurs zu Machine-Learning [1] zu machen um mein Gehirn selber zu verstehen. Oft zwingt einem eine Schizophrenie-Erkrankung auch dazu Meta-Kognitive Fähigkeiten zu erwerben damit man sich besser stabil halten kann.
+
+[1] https://www.coursera.org/learn/machine-learning
+
+Aber zum Thema "Kurzzeit-Vergessnis": Mein Gehirn sagt "die Studie ist falsch oder zu indifferenziert." oder mindestens das Test-Setting.
+(und ja ich hab die ganze Studie sogar mehrfach gelesen)
+
+
+
+Schlussendlich müsste man aber das Experiment mit sich selber machen, vielleicht bekommt man die Files für das Mathlab Psychophysics Toolbox irgendwo.
+
+militärischer reaktions-test -- ethik kommision fragwürdig je nach dem wo die daten landen -> autisten-früherkennung-assembler
+
+ganzes ökosystem wahrnehmungspsychologiem, Neurotask scripting (again privileged) => und bekommt ihr da die sicherheit des Infoprmatik hin oder wo sind jetzt diese daten alle? somit würde ich auch vom prof wissen wollen ob er die studenten angehalten hat dies zu vrewenden? und ob wenn ja der professor für dieses informatik system die haftung übernimmt, dass der nsa draüber ncith autisten sucht um diese platt zu machen?
+interaktiver open dialog artikel
+
+exclusion => auztismu
+
+die verwendet JASP ANOVA, habne die das von hand nachgerechtne? sollte man ja eignetlihc seit man weiss dass der nsa/cia überall seine wurstfinger drin hat
+=> ANOVA dann ein Mental operating system in den köpfen der leitenden studenten dass wenn der NSA mitgehört hat oder deren mamis und papis für die studenten selber eine Metasprache / mental operating system ist was dann exploitet werden könnte
+
+multiple draft model (dennett, impliziert mehrere module im gehirn, module impizieren wiederum ein interface und das wäre wieder ein enurolaes netz und nicht mal diskret
+- Sowohl named entity (aber je nach dem wenn der buchstaben spiegelverkehrt wird das nciht auf die named entity gemacht)
+- aber auch speichern des shapes (speicher bandbreite nur paar bytes)
+- prozentual ncoh mit farbe als hinweis / bzw. komplett random
+
+ja replikations-krise muss man was dagegen machen, aber die kapitel Participants/stimuli und so weiter nerven nur. die könnte man ja wegklappbar machen, shcon nicht löschen, aber für die eigentlihce aussage bringt das nichts
+
+dann gerade die sollten ja wissen das das gehrin grafisch funktionier (ein bild mehr als 1000 worte) also mehr grafiken wärne auch nett als tonnenweise prosa
+-> können die nur idese software bedienen und keien grafik software, oberschicth studenten die durchgewunken werden? und fürs teilnehmen bekommen die oberschiccht heinis die psychologie studieren dürfen auch noch Credits währen ich als unterschicht student in der fabrik arbeiten msusste um meine wohnung zahlen zu können. you are very privileged, so please help saving the planet with your privileged position in society
+
+dann experiment 2 ist ne brain ddos
+
+man bewerfe die verfasser dieser studie mit dem multiple-draft-model von daniel dennett
+
+
+weitere frage: sind die angenommenen "named entities" im STM oder LTM? greift das STM auf das LTM zu? interface zwischen modulen auch ein neuronales netzwerk nicht diskret
+
+nur ansicht STM und LTM => komplexitätsreduktion, deduktive logik aus lehrbüchern die ev outdated sind
+
+"dass es im STM" ist >BEWEIST< dass es schlchter wird nach paar sekunden ist imho auch falsch für den "named entity teil" des gehirns
+
+dann eine grafik bzw ein schönes übersichts Domain model hätte man ja auch ncoh machen können um das visuell schneller zu erfassen, scheuner eth digital literacy
+
+fixation color 
+
+
+also mein gehirn würde sich die buchstaben normla merken udn dann einen index zusätzlich speichern welcher gedreht war
+
+bildung fernesehen: "stereotypically black features", bei mir grad anders rum, ich hab vor afrikaner in der schweiz weniger angst als vor weissen, obwohl ich 400 Jahre Stammbaum in Aarau habe
+
+"perception shapes reality" sagt der Arne Vogelgesang in seinem geilen CCC Talk aber diese Studie sagt ja eher "Weltverständnis shapes memory", somit wäre es naheliegend anzunehmen, dass ein Gehirn ähnlich funktioniert wie ein Computer welches bereits vorhandene Datenobjekte nur referenziert. Also so wie eine Pointer in C/C++ *int p1.
+
+* Der Joscha Bach sagt in Alternativlos 42, dass wir Menschen "generische Funktions-Approximatoren" seien
+
+* Wenn man ChatGPT fragt: "Ist ein Neuronales-Netzwerk invariant gegenüber Spiegelungen?" antwortet der "Ein neuronales Netzwerk ist im Allgemeinen nicht invariant gegenüber Spiegelungen, es sei denn, es wurde > > speziell darauf trainiert < < ..."
+
+Da vermutlich niemand Buchstaben spiegelverkehrt lernt, kann der "generische Funktions-Aproximator" das "c" und das "spiegelverkehrte c" nur auf das selbe selbe Obiekt "c" im Gehirn referenzieren matchen (PatterMatching) und macht jedes mal den Pointer auf das normale "c".
+
+Somit gilt die Aussage allenfalls für Buchstaben-Suppe, aber gilt sie auch für "Named-Entities"? Also vorhandene DatenObjekte im Gehirn referenziert zwar das "c" richtig, referenziert aber für das spiegelverkehrte "c" auf das falsche Objekt. Spezialisten haben auf ihrem Fachgebeit eine viel differenzierte Landkarte der einzelnen DatenObjekte und würde somit weniger fehler machen.
+
+Auch das mit den Pseudo-Buchstaben (Dreiecken) umgeht das Problem mit den "NamedEntities" nicht, weil dass jemand explizit verschiedene DatenObjekte für Dreiecke die in einem anderen Winkel "naturalisiert" (gelernt) hat wäre auch eher nicht zu erwarten.
+
+Die Grafik "Target Letter" in der Studie zeigt ja auch irgendwie, dass wenn man nichts hat was man referenzieren kann, dass es dann noch schlimmer wird, verwirrung, ungeübt.
+
+Der Hinweis von Nicolas das "mehr Demut" etwas gutes sei stimmt aber IMHO trotzdem.
+
+Danke für die (meist) spannenden Themen, lustig ist es ja sowieso immer wie der Kommentar von Julia sagt
+
+
+
+
+Gruss Marc jr.

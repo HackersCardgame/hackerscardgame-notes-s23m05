@@ -61,10 +61,21 @@ interaktiver open dialog artikel
 
 dann währen die 20 jährigen studenten eigentlich gar nciht die die das eigentliche geheime experiment machen, sondern z.B. deren mami und papi oder irgend ein ungesehener blackhat-prof im hintergrund der über die informatik dann so die 1. semestler auch schon choosen-plaintextet, zB auf Autismus, weil ein autist würde dann wie juilan assange sowieso auch petze und whsitleblower
 
-Der Hinweis von Nicolas das "mehr Demut" etwas gutes sei stimmt aber IMHO trotzdem.
+Der Hinweis von Nicolas das "mehr Demut" etwas gutes sei stimmt aber IMHO.
 
 
 Ab hier wird es sehr spekulativ um nicht schwurbelig sagen zu müssen:
+
+Die Studenten verwenden
+
+* Mathlab
+* JASP ANOVA
+* Neurotask scripting
+* Zoom break-out room => da hat vermutlcih corona deren Studie teilweise sabotiert?
+
+Können sie oder ihr Professor oder ihre Uni gewährleisten, dass der nsa/cia (der wie wir seit Snowden dankbarerweise wissen sowieso überall seine wurstfinger dran hat), dass diese Software Produkte wirklich so funktionieren wie sie sollen, oder wäre es nicht gescheiter das ganze Bayessche Statistik Ding nochmals von Hand nachzurechnen?
+
+
 
 
 
@@ -72,7 +83,7 @@ Ab hier wird es sehr spekulativ um nicht schwurbelig sagen zu müssen:
 https://media.ccc.de/v/rc3-641471-muss_man_sich_vor_unterschwelliger_beeinflussung_fuerchten
 => eigentlich guter vortrag, ABER die zwei gehen von zu viel Vorwissen des Zuschauers aus weil sie Psycho studiert haben und die zuschauer nicht, und auch das Fazit "man muss sich nciht fürchten" ist meines erachten falsch
 
-Zoom break-out room => corona derne studie teilweise sabotiert?
+
 
 50.6% high confidence  => ist ein indikator für "Selbstsciherheit / SElbstwert"
 8.5% high confidence trials  => unsere katzen sind dumm

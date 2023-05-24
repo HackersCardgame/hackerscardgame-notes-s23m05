@@ -9,6 +9,9 @@
    id="svg8324"
    inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
    sodipodi:docname="ChatGPT-Zensur.svg"
+   inkscape:export-filename="ChatGPT-Zensur.png"
+   inkscape:export-xdpi="241.90475"
+   inkscape:export-ydpi="241.90475"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -231,7 +234,7 @@
      inkscape:groupmode="layer"
      id="layer1">
     <rect
-       style="fill:#d5d5ff;stroke:#000000;stroke-width:2.00098;stroke-linecap:round"
+       style="fill:#d5d5ff;stroke:#ffffff;stroke-width:2.00098;stroke-linecap:round"
        id="rect8497"
        width="166.55402"
        height="116.71481"
@@ -326,7 +329,7 @@
        d="m 141.72633,109.42105 4.57757,-7.40394 -3.50409,-7.968312 8.45612,2.065587 6.49549,-5.794935 0.64859,8.680551 7.51853,4.386839 -8.05527,3.29929 -1.84878,8.50615 -5.62702,-6.64147 z"
        inkscape:transform-center-x="-0.98031497"
        inkscape:transform-center-y="0.28218005"
-       transform="translate(-54.301381,31.849395)" />
+       transform="translate(-53.565497,32.09469)" />
     <path
        sodipodi:type="star"
        style="fill:#0055d4;stroke:none;stroke-width:2;stroke-linecap:round"
@@ -556,7 +559,7 @@
        d="m 28.46869,200.6372 h 4.17499"
        id="path11857" />
     <rect
-       style="fill:#ffaaaa;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-dasharray:none"
+       style="fill:#ffaaaa;stroke:#ffffff;stroke-width:2;stroke-linecap:round;stroke-dasharray:none"
        id="rect12752"
        width="166.55508"
        height="13.000617"

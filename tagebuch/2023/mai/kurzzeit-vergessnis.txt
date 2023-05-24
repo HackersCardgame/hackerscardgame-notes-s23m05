@@ -58,14 +58,6 @@ Somit kann der Buchstabe nicht mit dem "Named Entities"-Modul identifiziert werd
 Auch das mit den Pseudo-Buchstaben (Vierecken / Dreiecken) umgeht das Problem mit den "NamedEntities" nicht, weil dass jemand explizit verschiedene DatenObjekte für Dreiecke die in einem anderen Winkel "naturalisiert" (Benjamin Bloom Wort für gelernt) hat wäre auch eher nicht zu erwarten. Das würde wieder im "Named Entities"-Modul auf ein Dreick verweise, aber ohne Orientierungs-Informationen zum Dreieck.
 
 
-
-
-
-ganzes ökosystem wahrnehmungspsychologiem, Neurotask scripting (again privileged) => und bekommt ihr da die sicherheit des Infoprmatik hin oder wo sind jetzt diese daten alle? somit würde ich auch vom prof wissen wollen ob er die studenten angehalten hat dies zu vrewenden? und ob wenn ja der professor für dieses informatik system die haftung übernimmt, dass der nsa draüber ncith autisten sucht um diese platt zu machen? weil wenn der das nicht macht geht es bei dieser studie drarum die studenten mit diesen fehlern dann schlussendlich erpressbar zu machen und in ein zwangsmasssnahmensystem für die reiche oberschicht einzureihen
-interaktiver open dialog artikel
-
-dann währen die 20 jährigen studenten eigentlich gar nciht die die das eigentliche geheime experiment machen, sondern z.B. deren mami und papi oder irgend ein ungesehener blackhat-prof im hintergrund der über die informatik dann so die 1. semestler auch schon choosen-plaintextet, zB auf Autismus, weil ein autist würde dann wie juilan assange sowieso auch petze und whsitleblower
-
 Der Hinweis von Nicolas das "mehr Demut" etwas gutes sei stimmt aber IMHO.
 
 
@@ -107,6 +99,10 @@ Auch weist die Studie aus, dass ...
 Gemäss meinem naiven Verständnis von diesem globalen Überwachungsalbtraum integriert der NSA/CIA proaktiv sämtliche neuen Technologien und Entwicklungen um z.B. Personen zu identifizieren, um z.B. Parameter der Psychie auszulesen oder auszuwerten. Das findet man dann immer in solchen Artikeln wie "sein Programm belauscht die digitalen Stammtische" des tagesanzeigers.ch, der schon nicht gelöscht wurde, wo aber der Titel auf "Sein Start-up wurde von Microsoft gekauft" [] und was man jetzt nur noch zugreifen kann wenn man für den Paywall bezahlt. Dann hat François Rüf diese Software vielleicht mal für einen guten Zweck erfunden um zeitnahe über Politische Ereignisse zu berichten, was dann aber umgebaut wurde um mit des selben Software die jetzt aber Microsoft gehört proaktiv gewisse Themen wie z.B. Snowden, Assange ... möglichst auch proaktiv aus dem poltitischen Diskurs raus zu halten. So etwas ist meiner Meinung nach für eine Demokratie auch irgendwie problematisch.
 
 [] https://www.tagesanzeiger.ch/sein-start-up-wurde-von-microsoft-gekauft-961227091237
+
+Meiner Meinung nach ist das vom Mathlab bis Neurotask scripting (privileged?) ein ganzes Ökusystem, und dieses Ökosystem wäre aber vermutlich ins NSA/CIA System eingebunden => und bekommt ihr da die Sicherheit des Informatik hin oder wo sind jetzt diese Daten der Probanden alle? Somit würde ich auch vom Prof bzw. der Ethikkomission wissen wollen ob er die Studenten angehalten hat diese Software / Ökosystem zu verwenden? Und ob wenn ja der Professor / Ethikkommision für dieses Informatik system die Haftung übernimmt. Weil wenn der das nicht macht geht es bei dieser Studie darum die Studenten mit diesen sicherheitstechnischen Fehlern dann schlussendlich erpressbar zu machen und in ein zwangsmasssnahmensystem einzureihen, ich hab auch das Gefühl dass der Zugriff auf den OpenAccess Artikel dann weiteres Uneil auf meinem Computer aktiviert. Und wenn das der NSA wäre, dann wäre es mit Crypto die nicht gebrochen werden könnte und dies auch noch über 7 Umwege.
+
+Dann vermute ich auch, dass jedem der 20 Jährigen Studenten, Doktoranden oder Forscher vermutlich insgeheim ein doppelt so alter Täter zugeordnet ist der überwacht, Rahm abschöpft und diverses Unheil aktiviert wenn der 20 Jährige zu viel berechtigt kritische fragen stellen würde.
 
 Aber eigentlich waren wir ja bei den weniger intelligenten aber priviligerten Psychologie-Studenten. Die ganze studie wirkt ein bisschen so, also ob dann schlussendlich die Doktoranten oder Wissenschaftler an all dem Schuld sein würde, während das NSA/CIA/Windows ... Netzwerk seine Hände in Unschuld reiben würde.
 

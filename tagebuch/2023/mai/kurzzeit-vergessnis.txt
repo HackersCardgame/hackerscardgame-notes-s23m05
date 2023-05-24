@@ -59,6 +59,15 @@ man bewerfe die verfasser dieser studie mit dem multiple-draft-model von daniel 
 
 weitere frage: sind die angenommenen "named entities" im STM oder LTM? greift das STM auf das LTM zu? interface zwischen modulen auch ein neuronales netzwerk nicht diskret
 
+named entity <=> fuzzy trace theory 
+
+
+like “letter” and “mirrored”. => ist meiner meinung bei mir falsch, ich würde mir die stelle merke wo die buchstaben gedreht sind
+
+
+"world knowledge plays an increasingly large role within STM" hiesse, dass das STM auch auf das World Knowledge im LTM zugreift.
+
+
 nur ansicht STM und LTM => komplexitätsreduktion, deduktive logik aus lehrbüchern die ev outdated sind
 
 "dass es im STM" ist >BEWEIST< dass es schlchter wird nach paar sekunden ist imho auch falsch für den "named entity teil" des gehirns
@@ -94,3 +103,12 @@ Danke für die (meist) spannenden Themen, lustig ist es ja sowieso immer wie der
 
 
 Gruss Marc jr.
+
+
+
+
+dann der hinweis "named entity <=> fuzzy trace theory" soll dann ziemlcih am ende der studie die "conclusion" dass "die studie schon richtig ist" suggerieren, denncoh das was oben zur informatik-scherieht und zum auslesen der 1. semseter studenten notiert ist wäre damit ncith vom tisch
+
+
+
+

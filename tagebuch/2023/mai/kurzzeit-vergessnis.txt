@@ -66,7 +66,7 @@ Der Hinweis von Nicolas das "mehr Demut" etwas gutes sei stimmt aber IMHO.
 
 Ab hier wird es sehr spekulativ um nicht SCHWURBELIG sagen zu müssen:
 
-Die Studenten verwenden
+Die Studenten / Forscher verwenden
 
 * Mathlab
 * JASP ANOVA
@@ -81,30 +81,39 @@ Viele wenn auch nicht alle Psychologie-Studenten kommen eher aus privilegierten 
 
 Ist man priviligiert, dann ist gemäss meiner Erfahrung der Output im Falle eines Psychologen auf zwei Beinen oft ein hochmütiger, ignoranter Mensch der die Patienten/innen von oben herab behandelt. Gerade wenn man selber aus der Unterschit ist, in einer akuten Lebenskrise oder Sinnsuche, dann ist das eher nicht so hilfreich. Diese meine Aussage ist episodisch oder allenfalls ein Einzelfall. Aber dank meiner Psychologien die allenfalls auch mal eine Ausnahme ist kann man das auch in Studien über Narzissmus bei Ärzten usw. nachlesen und meine Beobachtungen einfach ignorieren.
 
+Also die Faktoren "NSA", "Durchschnitts-IQ von Psychologie-Studenten", "priviligierte Studenten" und einer Tendenz zu "ignoranz" oder "narzissmus" würde dann im schlimmsten Fall dazu führen, dass die Frage zu der Sicherheit der Informatik-Systeme welche die Forscher verwenden untern Teppich gekehrt würden.
 
+Die Studie sagt, dass sie vor allem 1. Semester Psychologie-Studenten/innen für die Studie verwendet haben. Also die Doktoranten oder die Forscher hätten in dem Fall, wo sie ihre Informatik sowieso nicht im Griff haben (was wie wir seit Snowden wissen eigentlich niemand mehr hat ausser der NSA/CIA) eigentlich zB mit dem Experiment 1 die Gehirne mit Inhalten ge-dDOS'ed haben, bzw. ausgelesen. Detaillierter wird das noch in diesem CCC Talk [] ausgeführt.
 
+[] https://media.ccc.de/v/rc3-641471-muss_man_sich_vor_unterschwelliger_beeinflussung_fuerchten
+=> eigentlich guter Talk, ABER die zwei Psychologen gehen von zu viel Vorwissen des Zuschauers aus weil sie selber Psychologie studiert haben aber die Zuschauer nicht, und auch das Fazit "man muss sich nicht vor unterschwelliger Beeinflussung fürchten" ist meines Erachtes falsch
 
+Somit würden die Doktoranten oder die Forscher im Part 2 ihres Lebens erfahren, dass sie die damals 1. Semester Studenten für den NSA/CIA erfasst und deren Psychie oder zumindest einige Parameter ausgelesen haben.
 
+Dann zu denken, dass selbst wenn man nicht mit seinem eigenen Computer oder Benutzer-Account an dem Test mitgemacht und es hat auch nirgends eine Kamera wäre auch allenfalls ein Fehlschluss NYU "identifying people from typing patterns" []
 
+[] https://www.vocativ.com/428550/keystrokes-reveal-identity-machine-learning-data/index.html
 
-privilegiert: zeigen auch statistiken oder studien von aladin al m,asaief
+Auch weist die Studie aus, dass ...
 
-"identifying people from typing patterns" [] => zB wenn man den Namen oder so ausfüllt
-oder auch z.B. eine Klinische Depression findet gemäss der ETH Studie 
+... In der Studie Erfasst: "50.6% high confidence trials" wurden => ist ein direkter Indikator für "Selbstsciherheit / Selbstwert"
+... Aus der Studie ausgeschlossen: "8.5% high confidence trials" wurden => bitte langsam fahren, unsere Katzen sind dumm
+
+Gemäss meinem naiven Verständnis von diesem globalen Überwachungsalbtraum integriert der NSA/CIA proaktiv sämtliche neuen Technologien und Entwicklungen um z.B. Personen zu identifizieren, um z.B. Parameter der Psychie auszulesen oder auszuwerten. Das findet man dann immer in solchen Artikeln wie "sein Programm belauscht die digitalen Stammtische" des tagesanzeigers.ch, der schon nicht gelöscht wurde, wo aber der Titel auf "Sein Start-up wurde von Microsoft gekauft" [] und was man jetzt nur noch zugreifen kann wenn man für den Paywall bezahlt. Dann hat François Rüf diese Software vielleicht mal für einen guten Zweck erfunden um zeitnahe über Politische Ereignisse zu berichten, was dann aber umgebaut wurde um mit des selben Software die jetzt aber Microsoft gehört proaktiv gewisse Themen wie z.B. Snowden, Assange ... möglichst auch proaktiv aus dem poltitischen Diskurs raus zu halten. So etwas ist meiner Meinung nach für eine Demokratie auch irgendwie problematisch.
+
+[] https://www.tagesanzeiger.ch/sein-start-up-wurde-von-microsoft-gekauft-961227091237
+
 
 aggregiert bei microsoft oder bei nsa / ndb / bnd (module)
 
 oder Stammtisch software
 
-[] https://www.vocativ.com/428550/keystrokes-reveal-identity-machine-learning-data/index.html
-
-https://media.ccc.de/v/rc3-641471-muss_man_sich_vor_unterschwelliger_beeinflussung_fuerchten
-=> eigentlich guter vortrag, ABER die zwei gehen von zu viel Vorwissen des Zuschauers aus weil sie Psycho studiert haben und die zuschauer nicht, und auch das Fazit "man muss sich nciht fürchten" ist meines erachten falsch
 
 
 
-50.6% high confidence  => ist ein indikator für "Selbstsciherheit / SElbstwert"
-8.5% high confidence trials  => unsere katzen sind dumm
+
+
+
 
 
 aber ich kann mit meiner Maxime "gleichaltrige und jüngere beschützen tun wollen" ja auch nciht sagen diese 20 jährigen studenten sind doof. ich meine unsere eltern haben ihren narzissmus an uns 1980er kinder ausgelebt weil sie mit ihren 30 jahren älter ja immer alles besser wussten bis ich 20 war. logischerweise berücksichtige ich in meiner bewertung, dass diese studenten halb so alt sind wie ich (44) und somit auch halb so viel lebenserfarung haben. an der uni bern sagen die den 20 jhärigen psycho student/innen sie sollen diese dingen nciht zu erstn nehmen, weil sie sonst paranoid werden. parnaoid zu werden ist aber auch irgendwie ein erfahrungswert

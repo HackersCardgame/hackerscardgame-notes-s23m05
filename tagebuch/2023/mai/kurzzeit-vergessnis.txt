@@ -64,21 +64,39 @@ dann währen die 20 jährigen studenten eigentlich gar nciht die die das eigentl
 Der Hinweis von Nicolas das "mehr Demut" etwas gutes sei stimmt aber IMHO.
 
 
-Ab hier wird es sehr spekulativ um nicht schwurbelig sagen zu müssen:
+Ab hier wird es sehr spekulativ um nicht SCHWURBELIG sagen zu müssen:
 
 Die Studenten verwenden
 
 * Mathlab
 * JASP ANOVA
 * Neurotask scripting
-* Zoom break-out room => da hat vermutlcih corona deren Studie teilweise sabotiert?
+* Zoom break-out room => ob den Forschern Corona deren Studie teilweise sabotiert hat?
 
-Können sie oder ihr Professor oder ihre Uni gewährleisten, dass der nsa/cia (der wie wir seit Snowden dankbarerweise wissen sowieso überall seine wurstfinger dran hat), dass diese Software Produkte wirklich so funktionieren wie sie sollen, oder wäre es nicht gescheiter das ganze Bayessche Statistik Ding nochmals von Hand nachzurechnen?
+Können sie oder ihr Professor oder ihre Uni gewährleisten, dass der NSA/CIA/NDB/BND (die wie wir seit Snowden dankbarerweise wissen sowieso überall ihre Wurstfinger drin haben), dass diese Software Produkte wirklich so funktionieren wie sie sollen, oder wäre es nicht gescheiter das ganze Bayessche Statistik Dingsie nochmals von Hand nachzurechnen?
+
+Dann sind ja gemäss einem Artikel oder einer Studie die google nicht mehr kennen will sind Psychologie-Studenten oft nicht so die hellsten Leuchten. Findet man aber auch raus über den Umweg wenn man z.B. mal schaut was der Durschnitts-IQ eines Psychologie-Studenten ist und den mit dem Durchschnitts-IQ von Physik-Studenten vergleicht.
+
+Viele wenn auch nicht alle Psychologie-Studenten kommen eher aus privilegierten Familien. Bzw. generell Studenten kommen eher aus privilegierten Familien, das belegen auch Statistiken oder z.B. die Studien des Soziologen Prof. Dr. Aladin El-Mafaalani.
+
+Ist man priviligiert, dann ist gemäss meiner Erfahrung der Output im Falle eines Psychologen auf zwei Beinen oft ein hochmütiger, ignoranter Mensch der die Patienten/innen von oben herab behandelt. Gerade wenn man selber aus der Unterschit ist, in einer akuten Lebenskrise oder Sinnsuche, dann ist das eher nicht so hilfreich. Diese meine Aussage ist episodisch oder allenfalls ein Einzelfall. Aber dank meiner Psychologien die allenfalls auch mal eine Ausnahme ist kann man das auch in Studien über Narzissmus bei Ärzten usw. nachlesen und meine Beobachtungen einfach ignorieren.
 
 
 
 
 
+
+
+privilegiert: zeigen auch statistiken oder studien von aladin al m,asaief
+
+"identifying people from typing patterns" [] => zB wenn man den Namen oder so ausfüllt
+oder auch z.B. eine Klinische Depression findet gemäss der ETH Studie 
+
+aggregiert bei microsoft oder bei nsa / ndb / bnd (module)
+
+oder Stammtisch software
+
+[] https://www.vocativ.com/428550/keystrokes-reveal-identity-machine-learning-data/index.html
 
 https://media.ccc.de/v/rc3-641471-muss_man_sich_vor_unterschwelliger_beeinflussung_fuerchten
 => eigentlich guter vortrag, ABER die zwei gehen von zu viel Vorwissen des Zuschauers aus weil sie Psycho studiert haben und die zuschauer nicht, und auch das Fazit "man muss sich nciht fürchten" ist meines erachten falsch

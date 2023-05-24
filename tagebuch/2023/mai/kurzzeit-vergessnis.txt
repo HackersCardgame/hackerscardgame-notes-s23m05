@@ -1,6 +1,8 @@
 Hallo Nicholas und Daniel
 
-@ Daniel: die Registerkarte mit dieser Studie ist bei mir im Browser jetzt seit 3 Wochen offen, weil mir deucht auch dass da etwas merkwürdig ist. Dann mach auch mal einen Autisten-Test online. Autisten können ja schlecht lügen und als Autist wie der Julian Assange wird man dann auch mit höhrer Wahrscheinlichkeit zu einer Petze oder einem Whistleblower werden. Aber da musst Du Dir wegen dem Test online keine Sorgen machen, das wüsste der NSA sowieso schon.
+@ Daniel: die Registerkarte mit dieser Studie ist bei mir im Browser jetzt seit 3 Wochen offen, weil mir deucht auch dass da etwas merkwürdig ist. Dann mach vielleicht auch mal einen Autisten-Test online. Autisten können ja schlecht lügen und als Autist wie der Julian Assange wird man dann auch mit höhrer Wahrscheinlichkeit zu einer Petze oder einem Whistleblower werden. Aber da musst Du Dir wegen dem Test online keine Sorgen machen, das wüsste der NSA sowieso schon.
+
+@ Robert: Lass Dir den gescrambelten Text mal von Sprach-Synthese vorlesen. Das erkennt man dann nicht, weshalb?
 
 Ich hab das auch nicht studiert. Ich habe eine Schizophrenie-Erkrankung und diese zwingt mich genauer mit meinen Denkprozessen auseinander zu setzen. Mir hat es eigentlich sehr geholfen mal noch den Coursera Kurs zu Machine-Learning [1] zu machen um mein Gehirn selber zu verstehen. Oft zwingt einem eine Schizophrenie-Erkrankung auch dazu Meta-Kognitive Fähigkeiten zu erwerben damit man sich besser stabil halten kann.
 
@@ -9,9 +11,48 @@ Ich hab das auch nicht studiert. Ich habe eine Schizophrenie-Erkrankung und dies
 Aber zum Thema "Kurzzeit-Vergessnis": Mein Gehirn sagt "die Studie ist falsch oder zu indifferenziert." oder mindestens das Test-Setting.
 (und ja ich hab die ganze Studie sogar mehrfach gelesen)
 
+Schlussendlich um wirklich genaueres sagen zu können müsste man aber das Experiment mit sich selber machen, vielleicht bekommt man die Files für das Mathlab Psychophysics Toolbox irgendwo von denen die die Studie gemacht haben.
 
 
-Schlussendlich müsste man aber das Experiment mit sich selber machen, vielleicht bekommt man die Files für das Mathlab Psychophysics Toolbox irgendwo.
+Jeder hat sein eigenes Weltbild, seine eigenen Wörter, Abkürzungen oder eine Art "Gehirn-Stenographie" um Dinge abzubilden. Bei Menschen mit Autismus oder Schizophrenie sind das vielleicht andere als bei den sogenannt neurotypischen Menschen.
+
+Ich hatte mit 6 meinen ersten C64 und tendiere extrem dazu mein Gehirn mit einem Computer bzw. einer CPU zu vergleichen. zB das was sie in der Studie mit der "Fuzzy Trace Theory" sagen würde ich aus meiner Informatiker-Perspektive als "Named Entity" bezeichnen, was man in Natural Language Processing verwendet.
+
+"perception shapes reality" sagt der Arne Vogelgesang in seinem geilen CCC Talk [1] aber diese Studie sagt ja eher "Weltverständnis shapes memory", somit wäre es naheliegend anzunehmen, dass ein Gehirn ähnlich funktioniert wie ein Computer welches bereits vorhandene Datenobjekte nur referenziert. Also so wie eine Pointer in C/C++ *int p1. Sie nennen das in der Studie eben "Fuzzy Trace Theory", aber mein Informatiker Gehirn kann mit C/C++ Pointern mehr anfangen.
+
+[1] https://media.ccc.de/v/rc3-11500-this_is_not_a_game_de
+
+p2: Der Joscha Bach sagt in Alternativlos 42 [2], dass wir Menschen "generische Funktions-Approximatoren" seien
+
+[2] https://alternativlos.org/42/
+
+
+p3: Wenn man ChatGPT fragt: "Ist ein Neuronales-Netzwerk invariant gegenüber Spiegelungen?" antwortet der "Ein neuronales Netzwerk ist im Allgemeinen nicht invariant gegenüber Spiegelungen, es sei denn, es wurde > > speziell darauf trainiert < < ..."
+
+
+Da vermutlich niemand Buchstaben spiegelverkehrt lernt, kann der "generische Funktions-Aproximator" das "c" und das "spiegelverkehrte ↄ" nur auf das selbe selbe Obiekt "c" im Gehirn referenzieren oder PatterMatch'en und macht jedes mal den Pointer auf das normale "c". (Fuzzy Trace Theory)
+
+p4: Der Daniel Dennett redet aber von einem "Multiple Drafts Model", und wenn ich das richtig verstanden habe, dann würde das bedeuten, dass das Gehirn verschieden Module hat. Verschiedene Module würden wieder bedeuten, dass es zwischen den verschiednen Modulein ein Interface hat. Dieses Interface wäre dann aber wieder ein Neuronales Netzwerk und weder diskret (abzählbar) noch statisch. Somit hat der Immanuel Kant mit seinem "Ding an sich" meint. Man hat von sich auch nur ein Modell (prone to Sekundärer Rationalisierung) man wird sich oder einen anderen Menschen aber nie bis ganz auf das letzte einzelne Neuron verstehen können. Aber selbst wenn man nur ein Modell hat, ich meine die Physiker haben es mit ihren Modellen ja auch geschafft auf den Mond zu kommen.
+
+Wenn ich jetzt das Multiple Drafts Modell so einigermassen richtig verstanen habe, dann würde der Visoelle Input von den Buchstaben in verschiedene Module im Gehirn weitergeleitet
+
+- "Named Entities"-Modul
+  aber je nach dem wenn der Buchstaben spiegelverkehrt dargestellt wird erkennt das Gehirn diese Named Entity vielleicht gar nicht
+  
+- "Pixel- / Augen- / Grafik-Speicher"-Modul
+  in den Teil, der Bilder wie sie sind speichert, also so eine Art Puffer für Pixel, bzw. wird da dann sofort auch wieder die Komplexität reduziert bzw komprimiert und es wird vermutlich zu einem Stilleben von Shapes [3] weiter verarbeitet
+
+- prozentual noch mit Farbe als Hinweis / bzw. komplett zufällige Farbe
+
+[3] https://en.wikipedia.org/wiki/Geon_(psychology)
+  
+Dann würden wie im Space-Shuttel die verscheidenen Module oder Verschiedenen Computer wieder abstimmen, welches der Module jetzt berücksichtigt wird: "The space shuttle flight control system uses four independent, parallel computers. At each step, the computers vote to determine the appropriate step.". Dann ist da wieder das Problem mit dem Interface oder der Zusammenführung, die weder diskret noch statisch ist.  
+  
+Somit kann der Buchstabe nicht mit dem "Named Entities"-Modul identifiziert werden würde das dann z.B. vom "Pixel- / Augen- / Grafik-Speicher"-Modul gemacht. Da wir diese aber nicht schon 1000x geübt haben ist das fehleranfälliger, was erklären würde weshalb die Studie aufzeigt dass bei den speigelverkehrten Buchstaben-Suppe mehr Fehler vorkommen.
+
+Auch das mit den Pseudo-Buchstaben (Vierecken / Dreiecken) umgeht das Problem mit den "NamedEntities" nicht, weil dass jemand explizit verschiedene DatenObjekte für Dreiecke die in einem anderen Winkel "naturalisiert" (Benjamin Bloom Wort für gelernt) hat wäre auch eher nicht zu erwarten. Das würde wieder im "Named Entities"-Modul auf ein Dreick verweise, aber ohne Orientierungs-Informationen zum Dreieck.
+
+
 
 militärischer reaktions-test -- ethik kommision fragwürdig je nach dem wo die daten landen -> autisten-früherkennung-assembler
 
@@ -19,6 +60,13 @@ ganzes ökosystem wahrnehmungspsychologiem, Neurotask scripting (again privilege
 interaktiver open dialog artikel
 
 dann währen die 20 jährigen studenten eigentlich gar nciht die die das eigentliche geheime experiment machen, sondern z.B. deren mami und papi oder irgend ein ungesehener blackhat-prof im hintergrund der über die informatik dann so die 1. semestler auch schon choosen-plaintextet, zB auf Autismus, weil ein autist würde dann wie juilan assange sowieso auch petze und whsitleblower
+
+Der Hinweis von Nicolas das "mehr Demut" etwas gutes sei stimmt aber IMHO trotzdem.
+
+
+Ab hier wird es sehr spekulativ um nicht schwurbelig sagen zu müssen:
+
+
 
 
 https://media.ccc.de/v/rc3-641471-muss_man_sich_vor_unterschwelliger_beeinflussung_fuerchten
@@ -59,7 +107,7 @@ man bewerfe die verfasser dieser studie mit dem multiple-draft-model von daniel 
 
 weitere frage: sind die angenommenen "named entities" im STM oder LTM? greift das STM auf das LTM zu? interface zwischen modulen auch ein neuronales netzwerk nicht diskret
 
-named entity <=> fuzzy trace theory 
+
 
 
 like “letter” and “mirrored”. => ist meiner meinung bei mir falsch, ich würde mir die stelle merke wo die buchstaben gedreht sind

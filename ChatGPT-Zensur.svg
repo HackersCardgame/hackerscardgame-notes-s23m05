@@ -25,8 +25,8 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="1.0786347"
-     inkscape:cx="488.11708"
-     inkscape:cy="609.10337"
+     inkscape:cx="476.06479"
+     inkscape:cy="609.10334"
      inkscape:window-width="1920"
      inkscape:window-height="1009"
      inkscape:window-x="1912"
@@ -206,26 +206,45 @@
          id="path11859"
          transform="scale(-0.5)" />
     </marker>
+    <marker
+       style="overflow:visible"
+       id="marker11861-5-3"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Arrow1L"
+       markerWidth="8.75"
+       markerHeight="5"
+       viewBox="0 0 8.75 5"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path11859-8-3"
+         transform="scale(-0.5)" />
+    </marker>
   </defs>
   <g
      inkscape:label="Ebene 1"
      inkscape:groupmode="layer"
      id="layer1">
     <rect
-       style="fill:#d5d5ff;stroke:#000000;stroke-width:2;stroke-linecap:round"
+       style="fill:#d5d5ff;stroke:#000000;stroke-width:2.00098;stroke-linecap:round"
        id="rect8497"
-       width="166.38947"
-       height="116.71579"
-       x="21.805267"
-       y="79.547363" />
+       width="166.55402"
+       height="116.71481"
+       x="21.722992"
+       y="79.547852" />
     <rect
-       style="fill:#ffff00;stroke:#ff0000;stroke-width:1.01207;stroke-linecap:round;stroke-dasharray:none"
+       style="fill:#ffff00;stroke:#ff0000;stroke-width:2;stroke-linecap:round;stroke-dasharray:none"
        id="rect9946"
-       width="168.28792"
-       height="11.972138"
-       x="20.856037"
-       y="66.179718"
-       ry="4.1642222" />
+       width="167.54507"
+       height="11.974284"
+       x="21.227463"
+       y="66.178642"
+       ry="4.1649685" />
     <text
        xml:space="preserve"
        style="font-size:10.5833px;font-family:Calibri;-inkscape-font-specification:Calibri;text-align:center;text-anchor:middle;fill:#ffff00;stroke:#000000;stroke-width:2;stroke-linecap:round"
@@ -525,53 +544,68 @@
        xml:space="preserve"
        style="font-size:8.21728px;font-family:Calibri;-inkscape-font-specification:Calibri;text-align:center;text-anchor:middle;fill:none;stroke:#ff0000;stroke-width:1.16465;stroke-linecap:round;stroke-dasharray:none"
        x="30.96743"
-       y="206.83055"
+       y="205.24307"
        id="text11799"><tspan
          sodipodi:role="line"
          id="tspan11797"
          style="fill:#000000;stroke:none;stroke-width:1.16466"
          x="30.96743"
-         y="206.83055">v</tspan></text>
+         y="205.24307">v</tspan></text>
     <path
        style="fill:#000000;stroke:#000000;stroke-width:0.250047;stroke-linecap:round;stroke-dasharray:none;marker-end:url(#marker11861)"
-       d="m 28.46869,201.69554 h 4.17499"
+       d="m 28.46869,200.6372 h 4.17499"
        id="path11857" />
     <rect
-       style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-dasharray:none"
+       style="fill:#ffaaaa;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-dasharray:none"
        id="rect12752"
        width="166.55508"
        height="13.000617"
-       x="21.58593"
-       y="196.97162"
+       x="21.722458"
+       y="195.9133"
        ry="0" />
     <text
        xml:space="preserve"
+       style="font-size:8.21728px;font-family:Calibri;-inkscape-font-specification:Calibri;text-align:center;text-anchor:middle;fill:none;stroke:#ff0000;stroke-width:1.16465;stroke-linecap:round;stroke-dasharray:none"
+       x="28.637133"
+       y="204.70697"
+       id="text11799-0-0"><tspan
+         sodipodi:role="line"
+         id="tspan11797-3-5"
+         style="fill:#000000;stroke:none;stroke-width:1.16466"
+         x="28.637133"
+         y="204.70697">v</tspan></text>
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:0.250047;stroke-linecap:round;stroke-dasharray:none;marker-end:url(#marker11861-5-3)"
+       d="m 26.138388,199.57194 h 4.174993"
+       id="path11857-16-6" />
+    <text
+       xml:space="preserve"
        style="font-size:7.05556px;font-family:Calibri;-inkscape-font-specification:Calibri;text-align:center;text-anchor:middle;fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-dasharray:none"
-       x="64.75779"
-       y="206.0475"
+       x="63.699455"
+       y="204.46002"
        id="text12758"><tspan
          sodipodi:role="line"
          id="tspan12756"
          style="font-size:7.05556px;fill:#000000;stroke:none;stroke-width:0.3"
-         x="64.75779"
-         y="206.0475">Inhaltlicher <tspan
+         x="63.699455"
+         y="204.46002">= Inhaltlicher <tspan
    style="font-weight:bold"
    id="tspan12789">Vektor</tspan></tspan></text>
     <text
        xml:space="preserve"
        style="font-size:4.58611px;line-height:0.7;font-family:Calibri;-inkscape-font-specification:Calibri;text-align:center;text-anchor:middle;fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-dasharray:none"
-       x="138.84608"
-       y="203.75371"
+       x="139.37524"
+       y="202.16623"
        id="text12758-1"><tspan
          sodipodi:role="line"
          id="tspan12756-8"
          style="font-size:4.58611px;fill:#000000;stroke:none;stroke-width:0.3"
-         x="138.84608"
-         y="203.75371">(Ein Vektor ist oberstufen Mathematik die man</tspan><tspan
+         x="139.37524"
+         y="202.16623">(Ein Vektor ist oberstufen Mathematik die man</tspan><tspan
          sodipodi:role="line"
          style="font-size:4.58611px;fill:#000000;stroke:none;stroke-width:0.3"
-         x="138.84608"
-         y="206.96399"
+         x="139.37524"
+         y="205.37651"
          id="tspan12787">halt lernen muss sonst begreift man nichts)</tspan></text>
   </g>
 </svg>

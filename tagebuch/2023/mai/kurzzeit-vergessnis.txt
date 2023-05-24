@@ -103,17 +103,17 @@ Gemäss meinem naiven Verständnis von diesem globalen Überwachungsalbtraum int
 
 [] https://www.tagesanzeiger.ch/sein-start-up-wurde-von-microsoft-gekauft-961227091237
 
+Aber eigentlich waren wir ja bei den weniger intelligenten aber priviligerten Psychologie-Studenten. Die ganze studie wirkt ein bisschen so, also ob dann schlussendlich die Doktoranten oder Wissenschaftler an all dem Schuld sein würde, während das NSA/CIA/Windows ... Netzwerk seine Hände in Unschuld reiben würde.
 
-aggregiert bei microsoft oder bei nsa / ndb / bnd (module)
+Dann wirkt die Studie auch ein bisschen so, als ob die mutmasslich privilegierten Psychologie-Studenten gar nicht so gut Computer bedienen können, weil erstens hätte man viel mehr Grafiken machen können wie ein Domain-Model bzw eine schematische darstellung der Studie, so dass man die auch in 30 Minuten erfasst und nicht wie ich 3 Wochen in einer Browser-Register-Karte offen haben muss. Zweitens einfach nur 3 Softwaren beidenen könnten die oben aufgelistet sind.
 
-oder Stammtisch software
+Dann gibt es ja bekannterweise vor allem im Fachbereich Psychologie die sogenannte Replikations-Krise. Da vermute ich all dieser viele Prosa zB Abschnitte "Participants" oder "Stimuli" hätte man wegklappbar machen können und wie bereits gesagt das Relevante vielleicht noch mit ein paar weiteren Grafiken so darstellen dass man das schnell erfassen kann. Wie man Dinge schnell darstellt da kann man alleine 10 Semester studieren, aber man findet auch zusammenfassungen wie diese hier von der Fr. Dr. Schener [] aber ich vermute ja, dass diese Psycholgies Studenten allenfalls gar nicht eine Grafik-Software bedienen können, das ist aber wieder spekulativ und meine subjektive Erfahrung mit Psychologen.
 
-
-
-
-
+[] https://www.research-collection.ethz.ch/bitstream/handle/20.500.11850/95482/eth-9053-02.pdf?sequence=2&isAllowed=y
 
 
+
+ja replikations-krise muss man was dagegen machen, aber die kapitel Participants/stimuli und so weiter nerven nur. die könnte man ja wegklappbar machen, shcon nicht löschen, aber für die eigentlihce aussage bringt das nichts
 
 
 aber ich kann mit meiner Maxime "gleichaltrige und jüngere beschützen tun wollen" ja auch nciht sagen diese 20 jährigen studenten sind doof. ich meine unsere eltern haben ihren narzissmus an uns 1980er kinder ausgelebt weil sie mit ihren 30 jahren älter ja immer alles besser wussten bis ich 20 war. logischerweise berücksichtige ich in meiner bewertung, dass diese studenten halb so alt sind wie ich (44) und somit auch halb so viel lebenserfarung haben. an der uni bern sagen die den 20 jhärigen psycho student/innen sie sollen diese dingen nciht zu erstn nehmen, weil sie sonst paranoid werden. parnaoid zu werden ist aber auch irgendwie ein erfahrungswert
@@ -128,12 +128,9 @@ exclusion => auztismu
 die verwendet JASP ANOVA, habne die das von hand nachgerechtne? sollte man ja eignetlihc seit man weiss dass der nsa/cia überall seine wurstfinger drin hat
 => ANOVA dann ein Mental operating system in den köpfen der leitenden studenten dass wenn der NSA mitgehört hat oder deren mamis und papis für die studenten selber eine Metasprache / mental operating system ist was dann exploitet werden könnte
 
-multiple draft model (dennett, impliziert mehrere module im gehirn, module impizieren wiederum ein interface und das wäre wieder ein enurolaes netz und nicht mal diskret
-- Sowohl named entity (aber je nach dem wenn der buchstaben spiegelverkehrt wird das nciht auf die named entity gemacht)
-- aber auch speichern des shapes (speicher bandbreite nur paar bytes)
-- prozentual ncoh mit farbe als hinweis / bzw. komplett random
 
-ja replikations-krise muss man was dagegen machen, aber die kapitel Participants/stimuli und so weiter nerven nur. die könnte man ja wegklappbar machen, shcon nicht löschen, aber für die eigentlihce aussage bringt das nichts
+
+
 
 dann gerade die sollten ja wissen das das gehrin grafisch funktionier (ein bild mehr als 1000 worte) also mehr grafiken wärne auch nett als tonnenweise prosa
 -> können die nur idese software bedienen und keien grafik software, oberschicth studenten die durchgewunken werden? und fürs teilnehmen bekommen die oberschiccht heinis die psychologie studieren dürfen auch noch Credits währen ich als unterschicht student in der fabrik arbeiten msusste um meine wohnung zahlen zu können. you are very privileged, so please help saving the planet with your privileged position in society

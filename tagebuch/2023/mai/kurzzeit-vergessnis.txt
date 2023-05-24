@@ -105,20 +105,25 @@ Gemäss meinem naiven Verständnis von diesem globalen Überwachungsalbtraum int
 
 Aber eigentlich waren wir ja bei den weniger intelligenten aber priviligerten Psychologie-Studenten. Die ganze studie wirkt ein bisschen so, also ob dann schlussendlich die Doktoranten oder Wissenschaftler an all dem Schuld sein würde, während das NSA/CIA/Windows ... Netzwerk seine Hände in Unschuld reiben würde.
 
-Dann wirkt die Studie auch ein bisschen so, als ob die mutmasslich privilegierten Psychologie-Studenten gar nicht so gut Computer bedienen können, weil erstens hätte man viel mehr Grafiken machen können wie ein Domain-Model bzw eine schematische darstellung der Studie, so dass man die auch in 30 Minuten erfasst und nicht wie ich 3 Wochen in einer Browser-Register-Karte offen haben muss. Zweitens einfach nur 3 Softwaren beidenen könnten die oben aufgelistet sind.
+Dann wirkt die Studie auch ein bisschen so, als ob die mutmasslich privilegierten Psychologie-Studenten gar nicht so gut Computer bedienen können, weil erstens hätte man viel mehr Grafiken (ein Bild sagt mehr als 1000 Worte und IMHO eine Grafik allenfalls noch mehr) machen können wie ein Domain-Model bzw eine schematische darstellung der Studie, so dass man die auch in 30 Minuten erfasst und nicht wie ich 3 Wochen in einer Browser-Register-Karte offen haben muss. Zweitens einfach nur 3 Softwaren beidenen könnten die oben aufgelistet sind.
 
 Dann gibt es ja bekannterweise vor allem im Fachbereich Psychologie die sogenannte Replikations-Krise. Da vermute ich all dieser viele Prosa zB Abschnitte "Participants" oder "Stimuli" hätte man wegklappbar machen können und wie bereits gesagt das Relevante vielleicht noch mit ein paar weiteren Grafiken so darstellen dass man das schnell erfassen kann. Wie man Dinge schnell darstellt da kann man alleine 10 Semester studieren, aber man findet auch zusammenfassungen wie diese hier von der Fr. Dr. Schener [] aber ich vermute ja, dass diese Psycholgies Studenten allenfalls gar nicht eine Grafik-Software bedienen können, das ist aber wieder spekulativ und meine subjektive Erfahrung mit Psychologen.
 
 [] https://www.research-collection.ethz.ch/bitstream/handle/20.500.11850/95482/eth-9053-02.pdf?sequence=2&isAllowed=y
 
+Aber schon Ausklappar und nicht löschen, weil für die Replikation wäre das dann wichtig.
 
+Dann auch das "stereotypically black features" in der Studie find ich eher nicht so toll. zB. ich persönlich habe viel weniger Angst in Aarau als Weisser mit 400 Jahre Stammbaum in Aarau wenn ich auf der Strasse einem Afrikaner über den weg laufe als wenn so ein alter weisser Mann auf mich zusteuert. (ein PTBS was ich vor allem wegen älteren weissen Psychiatern habe)
 
-ja replikations-krise muss man was dagegen machen, aber die kapitel Participants/stimuli und so weiter nerven nur. die könnte man ja wegklappbar machen, shcon nicht löschen, aber für die eigentlihce aussage bringt das nichts
+=> und schlussendlich ist mir jetzt aber auch klar, weshalb die psychiater im Kanton Aargau so komplett inkompeten sind vor allem die die doppelt so alt sind wie ich, die mussten gar nicht so viel lerenen im Studium, waren oft in der Kläger-, der Beurteiler- oder der Richter-Rolle. Haben mit vernichtenden Diagnosen wie der Schizophrenie viele Menschen aus der Unterschicht psychsich komplett vernichtet.
+
+ sind gar nicht so viel besser (oder sogar schlechter) als ein schizo. die sind einfach von der kaste her automatisch in einer bessern lage. und das beweist ja dann auch die studie die aufzeigt, dass schizophrene aus der unterschihct einen schlimmeren verlauf haben als solche aus der oberschicth
+
+man bewerfe die verfasser dieser studie mit dem multiple-draft-model von daniel dennett
+
 
 
 aber ich kann mit meiner Maxime "gleichaltrige und jüngere beschützen tun wollen" ja auch nciht sagen diese 20 jährigen studenten sind doof. ich meine unsere eltern haben ihren narzissmus an uns 1980er kinder ausgelebt weil sie mit ihren 30 jahren älter ja immer alles besser wussten bis ich 20 war. logischerweise berücksichtige ich in meiner bewertung, dass diese studenten halb so alt sind wie ich (44) und somit auch halb so viel lebenserfarung haben. an der uni bern sagen die den 20 jhärigen psycho student/innen sie sollen diese dingen nciht zu erstn nehmen, weil sie sonst paranoid werden. parnaoid zu werden ist aber auch irgendwie ein erfahrungswert
-
-=> und shclussendlich ist jetzt auch klar, weshalb die psychiater im Kanton aargau so komplett inkmopetetn sind auch wenn die doppelt so alt sind wie ich, die mussten gar nciht so viel lerene im studium, sind gar nicht so viel besser (oder sogar schlechter) als ein schizo. die sind einfach von der kaste her automatisch in einer bessern lage. und das beweist ja dann auch die studie die aufzeigt, dass schizophrene aus der unterschihct einen schlimmeren verlauf haben als solche aus der oberschicth
 
 
 
@@ -132,12 +137,12 @@ die verwendet JASP ANOVA, habne die das von hand nachgerechtne? sollte man ja ei
 
 
 
-dann gerade die sollten ja wissen das das gehrin grafisch funktionier (ein bild mehr als 1000 worte) also mehr grafiken wärne auch nett als tonnenweise prosa
+dann gerade die sollten ja wissen das das gehrin grafisch funktionier also mehr grafiken wärne auch nett als tonnenweise prosa
 -> können die nur idese software bedienen und keien grafik software, oberschicth studenten die durchgewunken werden? und fürs teilnehmen bekommen die oberschiccht heinis die psychologie studieren dürfen auch noch Credits währen ich als unterschicht student in der fabrik arbeiten msusste um meine wohnung zahlen zu können. you are very privileged, so please help saving the planet with your privileged position in society
 
 dann experiment 2 ist ne brain ddos -< verschwörungtheoretiker style: die 1. semestler deren neuralink wird ausgelesen und adaptiert so?
 
-man bewerfe die verfasser dieser studie mit dem multiple-draft-model von daniel dennett
+
 
 
 weitere frage: sind die angenommenen "named entities" im STM oder LTM? greift das STM auf das LTM zu? interface zwischen modulen auch ein neuronales netzwerk nicht diskret
@@ -162,35 +167,18 @@ fixation color
 
 also mein gehirn würde sich die buchstaben normla merken udn dann einen index zusätzlich speichern welcher gedreht war
 
-bildung fernesehen: "stereotypically black features", bei mir grad anders rum, ich hab vor afrikaner in der schweiz weniger angst als vor weissen, obwohl ich 400 Jahre Stammbaum in Aarau habe
 
-"perception shapes reality" sagt der Arne Vogelgesang in seinem geilen CCC Talk aber diese Studie sagt ja eher "Weltverständnis shapes memory", somit wäre es naheliegend anzunehmen, dass ein Gehirn ähnlich funktioniert wie ein Computer welches bereits vorhandene Datenobjekte nur referenziert. Also so wie eine Pointer in C/C++ *int p1.
 
-* Der Joscha Bach sagt in Alternativlos 42, dass wir Menschen "generische Funktions-Approximatoren" seien
 
-* Wenn man ChatGPT fragt: "Ist ein Neuronales-Netzwerk invariant gegenüber Spiegelungen?" antwortet der "Ein neuronales Netzwerk ist im Allgemeinen nicht invariant gegenüber Spiegelungen, es sei denn, es wurde > > speziell darauf trainiert < < ..."
 
-Da vermutlich niemand Buchstaben spiegelverkehrt lernt, kann der "generische Funktions-Aproximator" das "c" und das "spiegelverkehrte c" nur auf das selbe selbe Obiekt "c" im Gehirn referenzieren matchen (PatterMatching) und macht jedes mal den Pointer auf das normale "c".
-
-Somit gilt die Aussage allenfalls für Buchstaben-Suppe, aber gilt sie auch für "Named-Entities"? Also vorhandene DatenObjekte im Gehirn referenziert zwar das "c" richtig, referenziert aber für das spiegelverkehrte "c" auf das falsche Objekt. Spezialisten haben auf ihrem Fachgebeit eine viel differenzierte Landkarte der einzelnen DatenObjekte und würde somit weniger fehler machen.
-
-Auch das mit den Pseudo-Buchstaben (Dreiecken) umgeht das Problem mit den "NamedEntities" nicht, weil dass jemand explizit verschiedene DatenObjekte für Dreiecke die in einem anderen Winkel "naturalisiert" (gelernt) hat wäre auch eher nicht zu erwarten.
-
-Die Grafik "Target Letter" in der Studie zeigt ja auch irgendwie, dass wenn man nichts hat was man referenzieren kann, dass es dann noch schlimmer wird, verwirrung, ungeübt.
-
-Der Hinweis von Nicolas das "mehr Demut" etwas gutes sei stimmt aber IMHO trotzdem.
 
 Danke für die (meist) spannenden Themen, lustig ist es ja sowieso immer wie der Kommentar von Julia sagt
-
 
 
 
 Gruss Marc jr.
 
 
-
-
-dann der hinweis "named entity <=> fuzzy trace theory" soll dann ziemlcih am ende der studie die "conclusion" dass "die studie schon richtig ist" suggerieren, denncoh das was oben zur informatik-scherieht und zum auslesen der 1. semseter studenten notiert ist wäre damit ncith vom tisch
 
 
 

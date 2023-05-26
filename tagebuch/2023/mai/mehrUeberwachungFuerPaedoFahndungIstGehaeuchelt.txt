@@ -2,16 +2,47 @@
 
 Hallo Ihr
 
+
+
 TRIGGERWARNUNG:
 
 Ich hab ein Thema was auch eher nicht so bequem ist.
 
 Oft wird ja in der Politik argumentiert, dass wir unbedingt noch mehr Überwachung gegen Terroristen und Pädophilie brauchen. Auch die aktuelle Diskussion über Chat-Kontrolle wurde in diese Richtung ge-primed.
 
-Auf Telegram oder auch in anderen Social-Media-Plattformenen hat es duzende, hunderte oder tausende junger 20 Jähriger Menschen die z.B. weils sie Missbrauchs-, Misshandlungs-, Pädophilie- oder Vergewaltigungs-Opfer
+Mehr Überwachung heisst mehr Kosten. Diese Kosten werden oft einfach durchgewunken und dabei ist jeweils nicht nur Equipment sondern auch Personal. Und ja es ist sehr typisch für Männchen wie mich  aber z.B. die Kosten um ein Opfer wieder gesund zu pflegen, das ist allen egal
+
+Auf Telegram oder auch in anderen Social-Media-Plattformenen hat es duzende, hunderte oder tausende junger 20 Jähriger Menschen, die z.B. weils sie Missbrauchs-, Misshandlungs-, Pädophilie- oder Vergewaltigungs-Opfer. Die deswegen traumatisiert waren, die wenn sie z.B. von Menschen aus der Peering-Group vergewaltigt wurden dann logischerweise dort ausgeschlossen werden weil die Täter beim Anblick des Opfers mit ihren Straftaten konfrontiert werden. Also triezen die Täter die ganze Peering-Group dazu das Opfer auszuschliessen. Dies mit viel mehr Antrieb als jemand normalerewise hätte (Zwangsneurose).
+
+aus meiner subjektive Wahrnehmung in meiner Bubble: VIELE OPFER AUF TELEGRAM
+(also das wirkt auf mich so ein bisschen wie wenn das "The Last Church" ist für Opfer)
+
+Wissenschaftlich statistisch habe ich keine belastbaren Daten zur Dunkelziffer und den genauen Zahlen nur diese Grafik aus Amerikanischen Datenbeständen (IMG)
+
+-> Da wäre auch mal eine Schweizer/Europäische Studie dazu toll. Hat jemand gute Kontakte zu Universitäten mit guten Psychologischen Fakultät?
 
 
-Mehr Überwachung heisst mehr Kosten, aber z.B. die Kosten um ein Opfer wieder gesund zu pflegen, das ist allen egal
+Probleme:
+
+* kein Budget für Personal dass hilft oder proaktiv Social-Media oder Messenger bewirtschaftet
+(z.B. in Telegram findet man viele Depressions/Suizid Gruppen)
+
+* niemanden interessiert es der im Überfluss lebt
+
+* Menschen die trotzdem helfen möchten sind überfordert wenn sie selber nicht in einer solchen oder ähnlichen Lage waren. Selbst ausgebildete Psychologen oder Psychiater sind oft überfordert oder inkompetent [1]. Auch wenn ein Opfer bereits einen Selbstmord-Versuch gemacht hat [1] möchte kein Psychiater mehr diesen "Fall" (ich hasse es Menschen als Fall zu bezeichnen, deshalb Gänsefüsschen) zu übernehmen. Betriebswirtschaftler würden von einem "Schlechten Risiko" reden. Ich habe leider die Erfahrung gemacht dass mindestens einigen Psychiatern ihre eigene Reputation wichtiger ist als das Überleben eines Patienten.
+
+* Es gibt viele Gruppen die gar nicht öffentlich sind, wo selbst wenn man wie ich zumindest selber versucht Telegram zu bewirtschaften und die ganz schlimmen Fälle irgendwie einzusammeln und dann statt in eine Depressions-/Suizid-Gruppe in eine andere Gruppe mit Gleichaltrigen zu tun
+
+* Viele Opfer getrauen sich nicht aus Scham über diese Dinge zu sprechen. Sind wegen der Tat dann auch oft psychotsich und bekommen dann statt hilfe noch eine vernichtende Diagnose wie zB Borderline, Schizophrenie ...
+
+
+
+
+
+
+Dieser mein Text hier wäre allenfalls auch was für die DE-Piraten, haben die auch nen Matrix?
+
+
 
 
 
@@ -19,4 +50,4 @@ INSERT AKTE VERTSUEMMELTE MITPATIENTIN: (schon drei mal der selbe insert) -> so 
 Psychiatrie das selbe, bei einer Patientin die am ganzen Körper verstümmelt ist weil gemäss ihrer Aussage sie von ihrem Vater als Kind missbraucht wurde und an andere Männer vermietet wurde für Pädophlie
 
 
-Last Chruch
+[1]  oder [UNBEKANNT: INSERT FALL DeLö]

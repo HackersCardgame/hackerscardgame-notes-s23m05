@@ -62,7 +62,9 @@ yes you said, that you hate technical things. But in this case you NEED to read 
 
 The crazy-paranoid speculation of my schizophrenic me just found out why Projects like yours to help eg. Rape Victims, to help people with Borderline or Schizohprenie Diagnosis always fail. Also in Europe.
 
-There is some sort of worldwide "Client Isolation" (that is an algorithm to separate computers from each other in the same wireless-network and is sold as security feature. Often one can use the same algorithms for humans instead of computers) in computer-networks. They dont want that victims and people that ask to much non-neurotypical questions can not find each other.
+There is some sort of worldwide "Client Isolation" [1] in computer-networks. They dont want that victims and people that ask to much non-neurotypical questions can not find each other.
+
+[1] that is an algorithm to separate computers from each other in the same wireless-network and is sold as security feature. Often one can use the same algorithms for humans instead of computers
 
 
 

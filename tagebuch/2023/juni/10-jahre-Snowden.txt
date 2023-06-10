@@ -22,6 +22,7 @@ Das NSA Projekt "Strategic Mission J" und das Projekt "Strategic Mission K" hat 
 
 
 RESULTATE:
+----------
 * Es hatte für niemanden Konsequenzen [1]
 * Straftaten die begangen wurden wurden nachträglich mit änderung des Gesetzes legal gemacht [1]
 * Die Mitarbeiter des Untersuchungsausschusses haben Angst vor den Geheimdiensten [1]
@@ -31,7 +32,7 @@ RESULTATE:
 
 
 [1] Keine Konsequenzen:
-===================
+-----------------------
 Man muss sich so ein Management-Cockpit welches nicht nur Informatik steuert sondern auch Personen-Netzwerke (HUMINT) als etwas dynamisches (Mathematik :: SystemDynamics) vorstellen. Also da sind ein ganz super-duper mächtige die "Risiko-Bewertung" machen in welchen Situationen grössere Teile dieses Netzwerks auffliegen. Mit so ähnlichen Algorithmen wie in 3D Game-Engines kann man auch vieles schon automatisieren. zB. wenn ich so einen Text schreibe geht bei mir auch immer schon wieder der Vollterror los und draussen hat es dann irgendwelche Idioten die Motoren aufhäulen lassen oder irgend ein Nachbar knallt die Tür so laut dass ich in halbe Schock-Starre falle und alles solche "nette" Dinge. Dann in der NSA Datenbank sind auch Dinge drin die man ausgefressen hat, und die werden dann (allenfalls sogar automatisiert) zum dümmsten Zeitpunkt wieder abgerufen. Also das wäre so eine Erpresser-Datenbank. Diese Dinge kommen praktisch nie zur Anklage, weil Anklage hiesse (unfreiwillige) Beichte und Sühne und würde den Eintrag unbrauchbar machen. Also nochmals mein Plädoyer für radikale Ehrlichkeit, weil sonst hat man Denkblockade nach Denkblockade.
 
 
@@ -66,7 +67,7 @@ Management Access / Full View / Ganze Sicht auf z.B. Firma, Schule, Uni, Wohnhei
 
 
 MERKWüRDIG
-==========
+----------
 nach 13 min apruptes Ende des Audio-Files? Gibt's da noch eine längere Version? ev. nur bei mir qFire, TURBINE, TARMOIL, QuantumTheory oder mein Endpoint der Mist baut?
 
 

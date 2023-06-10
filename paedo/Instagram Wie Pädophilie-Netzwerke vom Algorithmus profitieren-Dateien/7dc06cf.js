@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[110],{212:function(n,t,e){"use strict";e.r(t);var r={name:"ArticleAdvertisement",mixins:[e(385).a],props:{data:{type:Object,default:function(){return{}}}}},c=e(1),component=Object(c.a)(r,(function(){return(0,this._self._c)("div")}),[],!1,null,null,null);t.default=component.exports}}]);

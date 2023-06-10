@@ -1,0 +1,2 @@
+
+Bootstrapper._serverTime = '2023-06-10 12:49:43'; Bootstrapper._clientIP = '3.76.223.40'; Bootstrapper.insertPageFiles(['https://ens.nzz.ch/nzz/prod-nzz/code/0d1badd8df1580b7d18fb8c8dc980d97.js?conditionId0=422956','https://ens.nzz.ch/nzz/prod-nzz/code/4f0115fa271d5f5c1c75bc69d27a8813.js?conditionId0=4915380']);Bootstrapper.setPageSpecificDataDefinitionIds([]);
